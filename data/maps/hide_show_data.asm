@@ -264,7 +264,7 @@ MissableObjects:
 
 PalletTownHS:
 	db PALLET_TOWN, $01, HIDE
-	db PALLET_TOWN, $04, SHOW
+	db PALLET_TOWN, $04, HIDE ; harzen 12/03/2023
 ViridianCityHS:
 	db VIRIDIAN_CITY, $05, SHOW
 	db VIRIDIAN_CITY, $07, HIDE
@@ -565,5 +565,6 @@ SeafoamIslandsB4FHS:
 	db SEAFOAM_ISLANDS_B4F, $01, HIDE
 	db SEAFOAM_ISLANDS_B4F, $02, HIDE
 	db SEAFOAM_ISLANDS_B4F, $03, SHOW
+	
 	db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1
