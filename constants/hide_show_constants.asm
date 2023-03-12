@@ -10,6 +10,7 @@ DEF SHOW EQU $15
 
 	const_def
 	const HS_PALLET_TOWN_OAK               ; 00
+	const HS_PALLET_TOWN_MEW_GIFT ; harzen 11/03/2023 quelli sotto vanno tutti incrementati di 1!!!
 	const HS_LYING_OLD_MAN                 ; 01
 	const HS_OLD_MAN                       ; 02
 	const HS_MUSEUM_GUY                    ; 03

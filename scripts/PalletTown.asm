@@ -156,6 +156,7 @@ PalletTown_TextPointers:
 	dw PalletTownText5
 	dw PalletTownText6
 	dw PalletTownText7
+	dw PalletTownText8
 
 PalletTownText1:
 	text_asm
@@ -193,22 +194,42 @@ PalletTownText2: ; girl
 	text_far _PalletTownText2
 	text_end
 
-PalletTownText3: ; fat man
-	text_far _PalletTownText3
-	text_end
+PalletTownText3: ; harzen 11/03/2023
+	text_asm
+	ld hl, PalletTownText3BlaBla
+	call PrintText
+	ld a, HS_PALLET_TOWN_MEW_GIFT
+	ld [wMissableObjectIndex], a
+	predef ShowObject
+	jp TextScriptEnd	
+	
 
-PalletTownText4: ; sign by lab
+
+PalletTownText4: ; harzen 11/03/2023
+	text_asm
+	lb bc, MEW, 25
+	call GivePokemon
+	ld a, HS_PALLET_TOWN_MEW_GIFT
+	ld [wMissableObjectIndex], a
+	predef HideObject
+	jp TextScriptEnd
+
+PalletTownText5: ; sign by lab
 	text_far _PalletTownText4
 	text_end
 
-PalletTownText5: ; sign by fence
+PalletTownText6: ; sign by fence
 	text_far _PalletTownText5
 	text_end
 
-PalletTownText6: ; sign by Red's house
+PalletTownText7: ; sign by Red's house
 	text_far _PalletTownText6
 	text_end
 
-PalletTownText7: ; sign by Blue's house
+PalletTownText8: ; sign by Blue's house
 	text_far _PalletTownText7
+	text_end
+
+PalletTownText3BlaBla: ; harzen 12/03/2023 - non va inserito nei text pointer (lo tengo sempre nell'ultimissima posizione), viene chiamato dal fisherman
+	text_far _PalletTownText3
 	text_end
