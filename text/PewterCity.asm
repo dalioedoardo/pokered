@@ -46,20 +46,45 @@ _PewterCityText13::
 	done
 
 _PewterCityText_19427::
-	text "Psssst!"
-	line "Do you know what"
-	cont "I'm doing?"
+	text "I'm Andrea, mayor"
+	line "of Pewter City."
+	
+	para "They also call me"
+	line "'Master'."
+	
+	para "When you get"
+	line "stronger, come"
+	cont "and visit me."
 	done
 
 _PewterCityText_1942c::
-	text "That's right!"
-	line "It's hard work!"
+	text "Wow!"
+	line "You are strong!"
+	
+	para "One trainer in"
+	line "route 11 is"
+	cont "looking for a"
+	cont "worthy opponent."
+	cont "His name is Edo."
 	done
 
 _PewterCityText_19431::
-	text "I'm spraying REPEL"
-	line "to keep #MON"
-	cont "out of my garden!"
+	text "... You beat"
+	line "them all?"
+	cont "Congratulation!"
+	
+	para "If your team is"
+	line "not full,"
+	cont "take this."
+	done
+	
+_PewterCityText_19438::
+	text "Mew is the"
+	line "primordial"
+	cont "#MON."
+	
+	para "Treat him"
+	line "gently!"
 	done
 
 _PewterCityText_1945d::

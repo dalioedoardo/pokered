@@ -252,20 +252,60 @@ PewterCityText13:
 
 PewterCityText4:
 	text_asm
-	ld hl, PewterCityText_19427
-	call PrintText
-	call YesNoChoice
-	ld a, [wCurrentMenuItem]
-	cp $0
-	jr nz, .playerDoesNotKnow
-	ld hl, PewterCityText_1942c
+	CheckEvent EVENT_GOT_MEW
+	jr nz, .alreadyGotMew
+	CheckEvent EVENT_BEAT_POKEMONTOWER_3_TRAINER_0 ; ripristinare TRAINER_0!!!! mettere trainer_1 solo per testare velocemente il dono di mew
+	jr nz, .alreadyBeatenPiccia
+	CheckEvent EVENT_BEAT_MEWTWO
+	jr nz, .alreadyBeatenMewtwo
+	ld hl, .notBeatenMewtwoText
 	call PrintText
 	jr .done
-.playerDoesNotKnow
-	ld hl, PewterCityText_19431
+.alreadyBeatenMewtwo
+	ld hl, .alreadyBeatenMewtwoText
 	call PrintText
+	ld a, HS_EDO
+	ld [wMissableObjectIndex], a
+	predef ShowObject
+	jr .done
+.alreadyBeatenPiccia
+	ld hl, .alreadyBeatenPicciaText
+	call PrintText
+	ld a, [wPartyCount]
+	cp PARTY_LENGTH
+	jp z, .done
+	lb bc, MEW, 5
+	call GivePokemon
+	jr nc, .done ; questo evita di settare l'evento se non ho preso Mew in squadra (non dovrebbe esserci neanche nel box, ma meglio controllare)
+	SetEvent EVENT_GOT_MEW
+	jr .done
+.alreadyGotMew
+	ld hl, .alreadyGotMewtext
+	call PrintText
+	jr .done
 .done
 	jp TextScriptEnd
+	
+.alreadyGotMewtext
+	text_far _PewterCityText_19438
+	text_end
+.alreadyBeatenPicciaText
+	text_far _PewterCityText_19431
+	text_end
+.alreadyBeatenMewtwoText
+	text_far _PewterCityText_1942c
+	text_end	
+.notBeatenMewtwoText
+	text_far _PewterCityText_19427
+	text_end
+	
+	
+	
+	
+	
+	
+	
+	
 
 PewterCityText_19427:
 	text_far _PewterCityText_19427

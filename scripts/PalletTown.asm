@@ -217,7 +217,7 @@ PalletTownText4: ; harzen 11/03/2023
 PalletTownText5: ; sign by lab
 	text_far _PalletTownText4
 	text_end
-
+	
 PalletTownText6: ; sign by fence
 	text_far _PalletTownText5
 	text_end

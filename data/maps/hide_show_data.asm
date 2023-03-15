@@ -25,7 +25,7 @@ MapHSPointers:
 	dw NoHS
 	dw Route9HS
 	dw NoHS
-	dw NoHS
+	dw Route11HS ;Harzen 15/03/2023
 	dw Route12HS
 	dw NoHS
 	dw NoHS
@@ -300,6 +300,8 @@ Route4HS:
 	db ROUTE_4, $03, SHOW
 Route9HS:
 	db ROUTE_9, $0A, SHOW
+Route11HS:
+	db ROUTE_11, $01, HIDE ; Harzen 15/03/2023
 Route12HS:
 	db ROUTE_12, $01, SHOW
 	db ROUTE_12, $09, SHOW

@@ -773,9 +773,9 @@ DEF INDIGO_PLATEAU_EVENTS_END EQU const_value - 1
 	const EVENT_BEAT_ARTICUNO
 
 ; Route 1 events ; aggiunti io... parto da 9E2 per lasciare almeno un evento libero per le seafoam islands ($9C0=2496... + 27 (seaform)... otterrei 2523, e vado direttamente a 2536=$9E8)
-	;const_next $9E8
-	;const_skip ; harzen 12/03/2023 serve per allinearmi
-	;const EVENT_BEAT_ROUTE_1_TRAINER_0 ; harzen 12/03/2023
+	const_next $9E8
+	const_skip ; harzen 12/03/2023 serve per allinearmi
+	const EVENT_GOT_MEW ; harzen 15/03/2023
 
 ; End of events
 

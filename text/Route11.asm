@@ -1,16 +1,27 @@
 _Route11BattleText1::
-	text "Win, lose or draw!"
+	text "YOOOH!"
+	line "I'm Edo!"
+	
+	para "You seem strong,"
+	line "let's fight!"
+	
 	done
 
 _Route11EndBattleText1::
-	text "Atcha!"
-	line "Didn't go my way!"
+	text "...!"
+	line "SUUUPEERR!"
 	prompt
 
 _Route11AfterBattleText1::
-	text "#MON is life!"
-	line "And to live is to"
-	cont "gamble!"
+	text "Maan, you are"
+	line "too much for me!"
+	
+	para "Why don't you go"
+	line "meet the Nilox?"
+	
+	para "He should be"
+	line "somewhere in"
+	cont "route 12!"
 	done
 
 _Route11BattleText2::
