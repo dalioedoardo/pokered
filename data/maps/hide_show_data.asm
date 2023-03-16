@@ -264,7 +264,6 @@ MissableObjects:
 
 PalletTownHS:
 	db PALLET_TOWN, $01, HIDE
-	db PALLET_TOWN, $04, HIDE ; harzen 12/03/2023
 ViridianCityHS:
 	db VIRIDIAN_CITY, $05, SHOW
 	db VIRIDIAN_CITY, $07, HIDE
@@ -301,9 +300,10 @@ Route4HS:
 Route9HS:
 	db ROUTE_9, $0A, SHOW
 Route11HS:
-	db ROUTE_11, $01, HIDE ; Harzen 15/03/2023
+	db ROUTE_11, $01, HIDE ; Edo Harzen 15/03/2023
 Route12HS:
 	db ROUTE_12, $01, SHOW
+	db ROUTE_12, $02, HIDE ; Nilox Harzen 15/03/2023
 	db ROUTE_12, $09, SHOW
 	db ROUTE_12, $0A, SHOW
 Route15HS:

@@ -63,9 +63,15 @@ Route11EndBattleText1:
 	text_far _Route11EndBattleText1
 	text_end
 
-Route11AfterBattleText1:
-	text_far _Route11AfterBattleText1
-	text_end
+Route11AfterBattleText1: ; MOSTRO IL NILOX harzen 16/03/2023
+	text_asm
+	ld hl, Route11AfterBattleText1BlaBla
+	call PrintText
+	ld a, HS_NILOX
+	ld [wMissableObjectIndex], a
+	predef ShowObject
+	jp TextScriptEnd
+
 
 Route11Text2:
 	text_asm
@@ -231,4 +237,9 @@ Route11AfterBattleText10:
 
 Route11Text11:
 	text_far _Route11Text11
+	text_end
+	
+;Harzen 16/03/2023
+Route11AfterBattleText1BlaBla:
+	text_far _Route11AfterBattleText1
 	text_end

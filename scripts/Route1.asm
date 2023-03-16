@@ -1,31 +1,10 @@
 Route1_Script:
-	call EnableAutoTextBoxDrawing
-	ld hl, Route1TrainerHeaders
-	ld de, Route1_ScriptPointers
-	ld a, [wRoute1CurScript]
-	call ExecuteCurMapScriptInTable
-	ld [wRoute1CurScript], a
-	ret
-
-Route1_ScriptPointers:
-	dw CheckFightingMapTrainers
-	dw DisplayEnemyTrainerTextAndStartBattle
-	dw EndTrainerBattle
+	jp EnableAutoTextBoxDrawing
 
 Route1_TextPointers:
 	dw Route1Text1
 	dw Route1Text2
 	dw Route1Text3
-	dw Route1Text4 ; harzen 12/03/2023
-
-
-; harzen 12/03/2023
-Route1TrainerHeaders:
-	def_trainers
-Route1TrainerHeader0:
-	trainer EVENT_BEAT_ROUTE_11_TRAINER_0, 3, Route1BattleText2, Route1EndBattleText2, Route1AfterBattleText2
-	db -1 ; end
-
 
 Route1Text1:
 	text_asm
@@ -68,25 +47,6 @@ Route1Text2:
 	text_far _Route1Text2
 	text_end
 
-; harzen 12/03/2023
 Route1Text3:
-	text_asm
-	ld hl, Route1TrainerHeader0
-	call TalkToTrainer
-	jp TextScriptEnd
-
-Route1Text4:
 	text_far _Route1Text3
-	text_end
-
-Route1BattleText2:
-	text_far _Route1Text2
-	text_end
-	
-Route1AfterBattleText2:
-	text_far _Route1Text_1caee
-	text_end
-
-Route1EndBattleText2:
-	text_far _Route11EndBattleText2
 	text_end

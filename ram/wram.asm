@@ -1927,9 +1927,9 @@ wOaksLabCurScript:: db
 wPalletTownCurScript:: db
 	ds 1
 wBluesHouseCurScript:: db
-wRoute1CurScript:: db ; harzen 12/03/2023 : nuova entry aggiunta!
+;wRoute1CurScript:: db ; harzen 12/03/2023 : nuova entry aggiunta!
 wViridianCityCurScript:: db
-	ds 1 ; harzen 12/03/2023 ridotto di 1: 2->1 !!! è essenziale ridurlo quando si inserisce una nuova entry, altrimenti si rischia di danneggiare tutto!!!
+	ds 2 ; harzen 12/03/2023 ridotto di 1: 2->1 !!! è essenziale ridurlo quando si inserisce una nuova entry, altrimenti si rischia di danneggiare tutto!!!
 wPewterCityCurScript:: db
 wRoute3CurScript:: db
 wRoute4CurScript:: db

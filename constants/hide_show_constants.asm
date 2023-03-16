@@ -10,7 +10,6 @@ DEF SHOW EQU $15
 
 	const_def
 	const HS_PALLET_TOWN_OAK               ; 00
-	const HS_PALLET_TOWN_MEW_GIFT ; harzen 11/03/2023 quelli sotto vanno tutti incrementati di 1!!!
 	const HS_LYING_OLD_MAN                 ; 01
 	const HS_OLD_MAN                       ; 02
 	const HS_MUSEUM_GUY                    ; 03
@@ -41,6 +40,7 @@ DEF SHOW EQU $15
 	const HS_ROUTE_9_ITEM                  ; 1C X
 	const HS_EDO ;Harzen 15/03/2023
 	const HS_ROUTE_12_SNORLAX              ; 1D
+	const HS_NILOX ;Harzen 16/03/2023
 	const HS_ROUTE_12_ITEM_1               ; 1E X
 	const HS_ROUTE_12_ITEM_2               ; 1F X
 	const HS_ROUTE_15_ITEM                 ; 20 X
