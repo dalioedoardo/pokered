@@ -1,18 +1,26 @@
+_Mansion2Text1::
+	text "I'm very sorry,"
+	line "Prof. Piccia is"
+	cont "busy right now."
+	
+	para "I won't let you"
+	line "ruin his quantum"
+	cont "experiment!"
+	done
+
 _Mansion2BattleText1::
-	text "I can't get out!"
-	line "This old place is"
-	cont "one big puzzle!"
+	text ".... I'm Piccia,"
+	line "and you are... my"
+	cont "next experiment!"
 	done
 
 _Mansion2EndBattleText1::
-	text "Oh no!"
-	line "My bag of loot!"
+	text "..."
+	line "Remarkable..."
 	prompt
 
 _Mansion2AfterBattleText1::
-	text "Switches open and"
-	line "close alternating"
-	cont "sets of doors!"
+	text "Ok, bye."
 	done
 
 _Mansion2Text3::

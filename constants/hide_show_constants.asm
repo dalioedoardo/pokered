@@ -38,6 +38,7 @@ DEF SHOW EQU $15
 	const HS_ROUTE_2_ITEM_2                ; 1A X
 	const HS_ROUTE_4_ITEM                  ; 1B X
 	const HS_ROUTE_9_ITEM                  ; 1C X
+	const HS_ELIA ;Harzen 17/03/2023
 	const HS_EDO ;Harzen 15/03/2023
 	const HS_ROUTE_12_SNORLAX              ; 1D
 	const HS_NILOX ;Harzen 16/03/2023
@@ -45,6 +46,7 @@ DEF SHOW EQU $15
 	const HS_ROUTE_12_ITEM_2               ; 1F X
 	const HS_ROUTE_15_ITEM                 ; 20 X
 	const HS_ROUTE_16_SNORLAX              ; 21
+	const HS_LEO ; Harzen 17/03/2023
 	const HS_ROUTE_22_RIVAL_1              ; 22
 	const HS_ROUTE_22_RIVAL_2              ; 23
 	const HS_NUGGET_BRIDGE_GUY             ; 24
@@ -198,7 +200,7 @@ DEF SHOW EQU $15
 	const HS_SILPH_CO_11F_2                ; B8
 	const HS_SILPH_CO_11F_3                ; B9
 	const HS_UNUSED_MAP_F4_1               ; BA XXX sprite doesn't exist
-	const HS_POKEMON_MANSION_2F_ITEM       ; BB X
+	const HS_POKEMON_MANSION_2F_ASSISTANT  ; BB harzen 17/03/23 è l'assistente di Piccia, da far sparire solo quando Elia viene battuto
 	const HS_POKEMON_MANSION_3F_ITEM_1     ; BC X
 	const HS_POKEMON_MANSION_3F_ITEM_2     ; BD X
 	const HS_POKEMON_MANSION_B1F_ITEM_1    ; BE X

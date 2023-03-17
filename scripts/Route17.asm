@@ -86,9 +86,14 @@ Route17EndBattleText2:
 	text_far _Route17EndBattleText2
 	text_end
 
-Route17AfterBattleText2:
-	text_far _Route17AfterBattleText2
-	text_end
+Route17AfterBattleText2: ; MOSTRO ELIA harzen 16/03/2023
+	text_asm
+	ld hl, Route17AfterBattleText2BlaBla
+	call PrintText
+	ld a, HS_ELIA
+	ld [wMissableObjectIndex], a
+	predef ShowObject
+	jp TextScriptEnd
 
 Route17Text3:
 	text_asm
@@ -256,4 +261,8 @@ Route17Text15:
 
 Route17Text16:
 	text_far _Route17Text16
+	text_end
+
+Route17AfterBattleText2BlaBla:
+	text_far _Route17AfterBattleText2
 	text_end

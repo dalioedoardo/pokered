@@ -74,8 +74,8 @@ _PewterCityText_19431::
 	cont "Congratulation!"
 	
 	para "If your team is"
-	line "not full,"
-	cont "take this."
+	line "not full, take"
+	cont "this."
 	done
 	
 _PewterCityText_19438::

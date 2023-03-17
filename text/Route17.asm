@@ -14,19 +14,28 @@ _Route17AfterBattleText1::
 	cont "CYCLING ROAD!"
 	done
 
+;harzen 17/03/2023 questo è Leo
 _Route17BattleText2::
-	text "What do you want,"
-	line "kiddo?"
+	text "Hi! I'm Leo."
+	line "I've been cycling"
+	cont "non-stop for 3"
+	cont "years by now."
+	
+	para "Now I fully"
+	line "understand the"
+	cont "Cycle of Life!"
 	done
 
 _Route17EndBattleText2::
-	text "Whoo!"
+	text "..."
+	line "What a WISTORM!"
 	prompt
 
 _Route17AfterBattleText2::
-	text "I could belly-"
-	line "bump you outta"
-	cont "here!"
+	text "I sense the"
+	line "presence of a"
+	cont "strong trainer"
+	cont "in route 10."
 	done
 
 _Route17BattleText3::

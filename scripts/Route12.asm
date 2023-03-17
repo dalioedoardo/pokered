@@ -106,6 +106,7 @@ Route12Text14:
 	text_far _Route12Text14
 	text_end
 
+;HARZEN 17/03/2023 questo è il Nilox
 Route12Text2:
 	text_asm
 	ld hl, Route12TrainerHeader0
@@ -120,9 +121,15 @@ Route12EndBattleText1:
 	text_far _Route12EndBattleText1
 	text_end
 
-Route12AfterBattleText1:
-	text_far _Route12AfterBattleText1
-	text_end
+Route12AfterBattleText1: ; MOSTRO LEO harzen 16/03/2023
+	text_asm
+	ld hl, Route12AfterBattleText1BlaBla
+	call PrintText
+	ld a, HS_LEO
+	ld [wMissableObjectIndex], a
+	predef ShowObject
+	jp TextScriptEnd	
+	
 
 Route12Text3:
 	text_asm
@@ -238,4 +245,8 @@ Route12Text11:
 
 Route12Text12:
 	text_far _Route12Text12
+	text_end
+
+Route12AfterBattleText1BlaBla:
+	text_far _Route12AfterBattleText1
 	text_end

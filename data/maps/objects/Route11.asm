@@ -12,7 +12,7 @@ Route11_Object:
 	bg_event  1,  5, 11 ; Route11Text11
 
 	def_object_events
-	object_event 10, 14, SPRITE_GAMBLER, STAY, DOWN, 1, OPP_GAMBLER, 1
+	object_event 50, 12, SPRITE_GAMBLER, STAY, DOWN, 1, OPP_GAMBLER, 1 ;Edo Harzen 17/03/2023
 	object_event 26,  9, SPRITE_GAMBLER, STAY, DOWN, 2, OPP_GAMBLER, 2
 	object_event 13,  5, SPRITE_YOUNGSTER, STAY, LEFT, 3, OPP_YOUNGSTER, 9
 	object_event 36, 11, SPRITE_SUPER_NERD, STAY, DOWN, 4, OPP_ENGINEER, 2

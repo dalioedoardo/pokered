@@ -58,7 +58,7 @@ PokemonMansion2F_ScriptPointers:
 
 PokemonMansion2F_TextPointers:
 	dw Mansion2Text1
-	dw PickUpItemText
+	dw Mansion2Text2
 	dw Mansion2Text3
 	dw Mansion2Text4
 	dw Mansion2Text5
@@ -69,7 +69,13 @@ Mansion2TrainerHeader0:
 	trainer EVENT_BEAT_MANSION_2_TRAINER_0, 0, Mansion2BattleText1, Mansion2EndBattleText1, Mansion2AfterBattleText1
 	db -1 ; end
 
+
 Mansion2Text1:
+	text_far _Mansion2Text1
+	text_end
+
+;harzen 17/03/2023 l'allenatore è diventato l'ex-pokèball, aka l'oggetto 2
+Mansion2Text2:
 	text_asm
 	ld hl, Mansion2TrainerHeader0
 	call TalkToTrainer

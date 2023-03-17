@@ -10,8 +10,8 @@ PokemonMansion2F_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  3, 17, SPRITE_SUPER_NERD, WALK, LEFT_RIGHT, 1, OPP_BURGLAR, 7
-	object_event 28,  7, SPRITE_POKE_BALL, STAY, NONE, 2, CALCIUM
+	object_event 22,  3, SPRITE_SUPER_NERD, STAY, LEFT, 1 ; harzen 17/03/2023 - questa diventa la guardia del laboratorio di Piccia
+	object_event 25,  2, SPRITE_SCIENTIST, STAY, UP, 2, OPP_SCIENTIST, 1
 	object_event 18,  2, SPRITE_POKEDEX, STAY, NONE, 3 ; person
 	object_event  3, 22, SPRITE_POKEDEX, STAY, NONE, 4 ; person
 

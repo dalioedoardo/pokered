@@ -47,22 +47,38 @@ _Route10AfterBattleText3::
 	line "for beating me!"
 	done
 
+;Elia Harzen 17/03/2023
 _Route10BattleText4::
-	text "I've been to a"
-	line "#MON GYM a few"
-	cont "times. But, I"
-	cont "lost each time."
+	text "Aaah..."
+	line "Finally some"
+	cont "rest! Cutting"
+	cont "trees down"
+	cont "sure is rough!"
+	
+	para "... What?"
+	line "Wanna fight?"
+	cont "So be it!"
+	
+	para "I'm Elia"
+	line "the Knight."
+	line "I fear"
+	cont "NOTHING!"
 	done
 
 _Route10EndBattleText4::
-	text "Ohh!"
-	line "Blew it again!"
+	text "GOD-AFTER!"
+	line "What a fight!"
 	prompt
 
 _Route10AfterBattleText4::
-	text "I noticed some"
-	line "#MANIACs"
-	cont "prowling around."
+	text "Have you ever"
+	line "met Piccia?"
+	cont "I'm sure he'll"
+	cont "fight if he is"
+	cont "not too busy!"
+	
+	para "His lab is in"
+	line "Cinnabar Island."
 	done
 
 _Route10BattleText5::

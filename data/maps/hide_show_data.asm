@@ -24,14 +24,14 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw Route9HS
-	dw NoHS
+	dw Route10HS ;Harzen 17/03/2023
 	dw Route11HS ;Harzen 15/03/2023
 	dw Route12HS
 	dw NoHS
 	dw NoHS
 	dw Route15HS
 	dw Route16HS
-	dw NoHS
+	dw Route17HS ; Harzen 17/03/2023
 	dw NoHS
 	dw NoHS
 	dw NoHS
@@ -299,6 +299,8 @@ Route4HS:
 	db ROUTE_4, $03, SHOW
 Route9HS:
 	db ROUTE_9, $0A, SHOW
+Route10HS:
+	db ROUTE_10, $04, HIDE ; Elia Harzen 17/03/2023
 Route11HS:
 	db ROUTE_11, $01, HIDE ; Edo Harzen 15/03/2023
 Route12HS:
@@ -310,6 +312,8 @@ Route15HS:
 	db ROUTE_15, $0B, SHOW
 Route16HS:
 	db ROUTE_16, $07, SHOW
+Route17HS:
+	db ROUTE_17, $02, HIDE ; Leo Harzen 17/03/2023
 Route22HS:
 	db ROUTE_22, $01, HIDE
 	db ROUTE_22, $02, HIDE
@@ -511,7 +515,7 @@ SilphCo11FHS:
 UnusedMapF4HS:
 	db UNUSED_MAP_F4, $02, SHOW
 PokemonMansion2FHS:
-	db POKEMON_MANSION_2F, $02, SHOW
+	db POKEMON_MANSION_2F, $01, SHOW ; harzen 17/03/2023, l'assistente di Piccia, che Elia fa sparire
 PokemonMansion3FHS:
 	db POKEMON_MANSION_3F, $03, SHOW
 	db POKEMON_MANSION_3F, $04, SHOW

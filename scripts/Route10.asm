@@ -94,6 +94,7 @@ Route10AfterBattleText3:
 	text_far _Route10AfterBattleText3
 	text_end
 
+;Elia
 Route10Text4:
 	text_asm
 	ld hl, Route10TrainerHeader3
@@ -104,13 +105,19 @@ Route10BattleText4:
 	text_far _Route10BattleText4
 	text_end
 
-Route10EndBattleText4:
+
+Route10EndBattleText4: ; NASCONDO L'ASSISTENTE DI PICCIA harzen 16/03/2023
 	text_far _Route10EndBattleText4
 	text_end
 
 Route10AfterBattleText4:
-	text_far _Route10AfterBattleText4
-	text_end
+	text_asm
+	ld hl, Route10AfterBattleText4BlaBla
+	call PrintText
+	ld a, HS_POKEMON_MANSION_2F_ASSISTANT
+	ld [wMissableObjectIndex], a
+	predef HideObject
+	jp TextScriptEnd
 
 Route10Text5:
 	text_asm
@@ -155,4 +162,8 @@ Route10Text7:
 
 Route10Text10:
 	text_far _Route10Text10
+	text_end
+
+Route10AfterBattleText4BlaBla:
+	text_far _Route10AfterBattleText4
 	text_end

@@ -278,7 +278,7 @@ BikerData:
 	; The result is that this data gets interpreted as the base stats
 	; for MissingNo: 0, 33, MUK, 0, 29, VOLTORB, VOLTORB, 0, ..., 28, GRIMER, GRIMER.
 	db 28, WEEZING, KOFFING, WEEZING, 0
-	db 33, MUK, 0
+	db 33, MUK, 0 ; LEO harzen 17/03/2023
 	db 29, VOLTORB, VOLTORB, 0
 	db 29, WEEZING, MUK, 0
 	db 25, KOFFING, WEEZING, KOFFING, KOFFING, WEEZING, 0
@@ -368,7 +368,7 @@ CueBallData:
 
 GamblerData:
 ; Route 11
-	db 18, POLIWAG, HORSEA, 0
+	db $FF, 84, SANDSLASH, 87, VICTREEBEL, 88, KABUTOPS, 90, JOLTEON, 91, ALAKAZAM, 93, VENUSAUR, 0 ; Edo Harzen 17/03/2023
 	db 18, BELLSPROUT, ODDISH, 0
 	db 18, VOLTORB, MAGNEMITE, 0
 	db 18, GROWLITHE, VULPIX, 0

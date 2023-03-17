@@ -51,6 +51,7 @@ Route11TrainerHeader9:
 
 Route11Text1:
 	text_asm
+	ResetEvent EVENT_BEAT_ROUTE_12_TRAINER_0 ;harzen 17/03/2023 - il Nilox deve ancora essere battuto (serve solo perchè nel mio .sgm ho già battuto quel trainer)
 	ld hl, Route11TrainerHeader0
 	call TalkToTrainer
 	jp TextScriptEnd

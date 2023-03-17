@@ -18,18 +18,23 @@ _Route12Text14::
 	done
 
 _Route12BattleText1::
-	text "Yeah! I got a"
-	line "bite, here!"
+	text "..."
+	line "A human?"
+	cont "What a nuisance!"
 	done
 
 _Route12EndBattleText1::
-	text "Tch!"
-	line "Just a small fry!"
+	text "..."
 	prompt
 
 _Route12AfterBattleText1::
-	text "Hang on! My line's"
-	line "snagged!"
+	text "... Why don't you"
+	line "go bother Leo?"
+	
+	para "Three years ago"
+	line "he said he was"
+	cont "repairing his"
+	cont "bicycle..."
 	done
 
 _Route12BattleText2::
