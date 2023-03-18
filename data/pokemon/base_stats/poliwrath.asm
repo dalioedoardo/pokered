@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/poliwrath.pic", 0, 1 ; sprite dimensions
 	dw PoliwrathPicFront, PoliwrathPicBack
 
-	db HYPNOSIS, WATER_GUN, DOUBLESLAP, BODY_SLAM ; level 1 learnset
+	db DOUBLESLAP, WATER_GUN, HYPNOSIS, AMNESIA ; level 1 learnset Harzen 18/03/2023 invertita doubleslap con hypnosis e body_slam con amnesia
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

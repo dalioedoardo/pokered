@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/wigglytuff.pic", 0, 1 ; sprite dimensions
 	dw WigglytuffPicFront, WigglytuffPicBack
 
-	db SING, DISABLE, DEFENSE_CURL, DOUBLESLAP ; level 1 learnset
+	db SING, DISABLE, PSYCHIC_M, HYPER_BEAM ; level 1 learnset Harzen 18/03/2023
 	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset

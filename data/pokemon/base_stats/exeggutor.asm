@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/exeggutor.pic", 0, 1 ; sprite dimensions
 	dw ExeggutorPicFront, ExeggutorPicBack
 
-	db BARRAGE, HYPNOSIS, NO_MOVE, NO_MOVE ; level 1 learnset
+	db MEGA_DRAIN, HYPNOSIS, PSYCHIC_M, NO_MOVE ; level 1 learnset Harzen 18/03/2023
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

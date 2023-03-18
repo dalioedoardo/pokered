@@ -273,8 +273,8 @@ NidokingEvosMoves:
 	db 0
 ; Learnset
 	db 8, HORN_ATTACK
-	db 14, POISON_STING
-	db 23, THRASH
+	db 14, EARTHQUAKE ; RIMPIAZZATO POISON_STING Harzen 18/03/2023
+	db 23, HYPER_BEAM ;RIMPIAZZATO THRASH Harzen 18/03/2023
 	db 0
 
 SlowbroEvosMoves:
@@ -285,7 +285,7 @@ SlowbroEvosMoves:
 	db 22, HEADBUTT
 	db 27, GROWL
 	db 33, WATER_GUN
-	db 37, WITHDRAW
+	db 37, REST ;RIMPIAZZATA WITHDRAW Harzen 18/03/2023
 	db 44, AMNESIA
 	db 55, PSYCHIC_M
 	db 0
@@ -308,7 +308,7 @@ ExeggutorEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 28, STOMP
+	db 28, EXPLOSION
 	db 0
 
 LickitungEvosMoves:
@@ -353,7 +353,7 @@ GengarEvosMoves:
 	db 0
 ; Learnset
 	db 29, HYPNOSIS
-	db 38, DREAM_EATER
+	db 38, PSYCHIC_M ;RIMPIAZZATA DREAM_EATER Harzen 18/03/2023
 	db 0
 
 NidoranFEvosMoves:
@@ -373,9 +373,9 @@ NidoqueenEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 8, SCRATCH
-	db 14, POISON_STING
-	db 23, BODY_SLAM
+	db 8, REST ;RIMPIAZZATO SCRATCH Harzen 18/03/2023
+	db 14, EARTHQUAKE ;RIMPIAZZATO POISON_STING Harzen 18/03/2023
+	db 23, SLUDGE ;RIMPIAZZATO BODY_SLAM Harzen 18/03/2023
 	db 0
 
 CuboneEvosMoves:
@@ -436,8 +436,8 @@ GyaradosEvosMoves:
 	db 0
 ; Learnset
 	db 20, BITE
-	db 25, DRAGON_RAGE
-	db 32, LEER
+	db 25, BODY_SLAM ;RIMPIAZZATA DRAGON_RAGE Harzen 18/03/2023
+	db 32, EARTHQUAKE ;RIMPIAZZATA LEER Harzen 18/03/2023
 	db 41, HYDRO_PUMP
 	db 52, HYPER_BEAM
 	db 0
@@ -487,7 +487,7 @@ ScytherEvosMoves:
 	db 24, DOUBLE_TEAM
 	db 29, SLASH
 	db 35, SWORDS_DANCE
-	db 42, AGILITY
+	db 42, HYPER_BEAM ;RIMPIAZZATA AGILITY Harzen 18/03/2023
 	db 0
 
 StaryuEvosMoves:
@@ -510,9 +510,9 @@ BlastoiseEvosMoves:
 ; Learnset
 	db 8, BUBBLE
 	db 15, WATER_GUN
-	db 24, BITE
-	db 31, WITHDRAW
-	db 42, SKULL_BASH
+	db 24, REST ; RIMPIAZZATA BITE Harzen 18/03/2023
+	db 31, ICE_BEAM ; RIMPIAZZATA WITHDRAW Harzen 18/03/2023
+	db 42, BODY_SLAM ; RIMPIAZZATA SKULL_BASH Harzen 18/03/2023
 	db 52, HYDRO_PUMP
 	db 0
 
@@ -614,7 +614,7 @@ SlowpokeEvosMoves:
 
 KadabraEvosMoves:
 ; Evolutions
-	db EV_TRADE, 1, ALAKAZAM
+	db EV_LEVEL, 35, ALAKAZAM ;evoluzione per livello Harzen 18/03/2023
 	db 0
 ; Learnset
 	db 16, CONFUSION
@@ -627,7 +627,7 @@ KadabraEvosMoves:
 
 GravelerEvosMoves:
 ; Evolutions
-	db EV_TRADE, 1, GOLEM
+	db EV_LEVEL, 45, GOLEM ;evoluzione per livello Harzen 18/03/2023
 	db 0
 ; Learnset
 	db 11, DEFENSE_CURL
@@ -652,7 +652,7 @@ ChanseyEvosMoves:
 
 MachokeEvosMoves:
 ; Evolutions
-	db EV_TRADE, 1, MACHAMP
+	db EV_LEVEL, 43, MACHAMP ;evoluzione per livello Harzen 18/03/2023
 	db 0
 ; Learnset
 	db 20, LOW_KICK
@@ -748,8 +748,8 @@ GolemEvosMoves:
 ; Learnset
 	db 11, DEFENSE_CURL
 	db 16, ROCK_THROW
-	db 21, SELFDESTRUCT
-	db 29, HARDEN
+	db 21, SEISMIC_TOSS ; RIMPIAZZATA SELFDESTRUCT Harzen 18/03/2023
+	db 29, ROCK_SLIDE ; RIMPIAZZATA HARDEN Harzen 18/03/2023
 	db 36, EARTHQUAKE
 	db 43, EXPLOSION
 	db 0
@@ -797,8 +797,8 @@ MagnetonEvosMoves:
 	db 25, THUNDERSHOCK
 	db 29, SUPERSONIC
 	db 38, THUNDER_WAVE
-	db 46, SWIFT
-	db 54, SCREECH
+	db 46, THUNDERBOLT ; RIMPIAZZATA SWIFT Harzen 18/03/2023
+	db 54, REFLECT ;RIMPIAZZATA SCREECH Harzen 18/03/2023
 	db 0
 
 KoffingEvosMoves:
@@ -1014,9 +1014,9 @@ MeowthEvosMoves:
 	db 0
 ; Learnset
 	db 12, BITE
-	db 17, PAY_DAY
+	db 17, DOUBLE_TEAM
 	db 24, SCREECH
-	db 33, FURY_SWIPES
+	db 33, BUBBLEBEAM ;RIMPIAZZATA FURY_SWIPES Harzen 18/03/2023
 	db 44, SLASH
 	db 0
 
@@ -1137,9 +1137,9 @@ KabutopsEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 34, ABSORB
+	db 34, SWORDS_DANCE ;RIMPIAZZATO ABSORB Harzen 18/03/2023
 	db 39, SLASH
-	db 46, LEER
+	db 46, ROCK_SLIDE ;RIMPIAZZATA LEER Harzen 18/03/2023
 	db 53, HYDRO_PUMP
 	db 0
 
@@ -1280,7 +1280,7 @@ JolteonEvosMoves:
 	db 42, DOUBLE_KICK
 	db 44, AGILITY
 	db 48, PIN_MISSILE
-	db 54, THUNDER
+	db 54, THUNDERBOLT ;RIMPIAZZATO THUNDER Harzen 18/03/2023
 	db 0
 
 VaporeonEvosMoves:
@@ -1362,8 +1362,8 @@ PoliwrathEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, HYPNOSIS
-	db 19, WATER_GUN
+	db 16, SUBMISSION ;RIMPIAZZATA HYPNOSIS Harzen 18/03/2023
+	db 19, HYDRO_PUMP ;RIMPIAZZATA WATER_GUN Harzen 18/03/2023
 	db 0
 
 WeedleEvosMoves:
@@ -1414,9 +1414,9 @@ PrimeapeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, KARATE_CHOP
-	db 21, FURY_SWIPES
-	db 27, FOCUS_ENERGY
+	db 15, FOCUS_ENERGY ; rimpiazzata KARATE_CHOP Harzen 18/03/2023
+	db 21, SUBMISSION ; rimpiazzata FURY_SWIPES Harzen 18/03/2023
+	db 27, KARATE_CHOP ; RIMPIAZZATA FOCUS_ENERGY Harzen 18/03/2023
 	db 37, SEISMIC_TOSS
 	db 46, THRASH
 	db 0
@@ -1499,9 +1499,9 @@ MachampEvosMoves:
 	db 0
 ; Learnset
 	db 20, LOW_KICK
-	db 25, LEER
-	db 36, FOCUS_ENERGY
-	db 44, SEISMIC_TOSS
+	db 25, SEISMIC_TOSS ;RIMPIAZZATA LEER Harzen 18/03/2023
+	db 36, BODY_SLAM ;RIMPIAZZATA FOCUS_ENERGY Harzen 18/03/2023
+	db 44, ROCK_SLIDE ;RIMPIAZZATA SEISMIC_TOSS Harzen 18/03/2023
 	db 52, SUBMISSION
 	db 0
 
@@ -1529,7 +1529,7 @@ HypnoEvosMoves:
 	db 12, DISABLE
 	db 17, CONFUSION
 	db 24, HEADBUTT
-	db 33, POISON_GAS
+	db 33, HYPNOSIS ;rimpiazzata POISON_GAS harzen 18/03/2023
 	db 37, PSYCHIC_M
 	db 43, MEDITATE
 	db 0
@@ -1561,9 +1561,9 @@ SnorlaxEvosMoves:
 	db 0
 ; Learnset
 	db 35, BODY_SLAM
-	db 41, HARDEN
-	db 48, DOUBLE_EDGE
-	db 56, HYPER_BEAM
+	db 41, EARTHQUAKE ;RIMPIAZZATA HARDEN Harzen 18/03/2023
+	db 48, HYPER_BEAM ;RIMPIAZZATA DOUBLE_EDGE Harzen 18/03/2023
+	db 56, REST ;RIMPIAZZATA HYPER_BEAM Harzen 18/03/2023
 	db 0
 
 MagikarpEvosMoves:
@@ -1686,7 +1686,7 @@ MissingNo92EvosMoves:
 
 HaunterEvosMoves:
 ; Evolutions
-	db EV_TRADE, 1, GENGAR
+	db EV_LEVEL, 39, GENGAR ;evoluzione per livello Harzen 18/03/2023
 	db 0
 ; Learnset
 	db 29, HYPNOSIS
@@ -1731,10 +1731,10 @@ PidgeotEvosMoves:
 ; Learnset
 	db 5, SAND_ATTACK
 	db 12, QUICK_ATTACK
-	db 21, WHIRLWIND
-	db 31, WING_ATTACK
+	db 21, DOUBLE_TEAM ;RIMPIAZZATA WHIRLWIND Harzen 18/03/2023
+	db 31, DRILL_PECK ;RIMPIAZZATA WING_ATTACK Harzen 18/03/2023
 	db 44, AGILITY
-	db 54, MIRROR_MOVE
+	db 54, HYPER_BEAM ;RIMPIAZZATA MIRROR_MOVE Harzen 18/03/2023
 	db 0
 
 StarmieEvosMoves:
@@ -1764,10 +1764,10 @@ VenusaurEvosMoves:
 	db 7, LEECH_SEED
 	db 13, VINE_WHIP
 	db 22, POISONPOWDER
-	db 30, RAZOR_LEAF
-	db 43, GROWTH
+	db 30, BODY_SLAM ; RIMPIAZZATO RAZOR_LEAF Harzen 18/03/2023
+	db 43, SWORDS_DANCE ; RIMPIAZZATO GROWTH Harzen 18/03/2023
 	db 55, SLEEP_POWDER
-	db 65, SOLARBEAM
+	db 65, RAZOR_LEAF ; RIMPIAZZATO SOLARBEAM Harzen 18/03/2023
 	db 0
 
 TentacruelEvosMoves:
@@ -1775,12 +1775,12 @@ TentacruelEvosMoves:
 	db 0
 ; Learnset
 	db 7, SUPERSONIC
-	db 13, WRAP
+	db 13, CONSTRICT ;RIMPIAZZATA WRAP Harzen 18/03/2023
 	db 18, POISON_STING
 	db 22, WATER_GUN
-	db 27, CONSTRICT
+	db 27, WRAP ;RIMPIAZZATA CONSTRINCT Harzen 18/03/2023
 	db 35, BARRIER
-	db 43, SCREECH
+	db 43, GLARE ;RIMPIAZZATO SCREECH Harzen 18/03/2023
 	db 50, HYDRO_PUMP
 	db 0
 
@@ -1928,7 +1928,7 @@ PorygonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 23, PSYBEAM
+	db 23, PSYCHIC_M ;RIMPIAZZATA PSYBEAM Harzen 18/03/2023
 	db 28, RECOVER
 	db 35, AGILITY
 	db 42, TRI_ATTACK
@@ -1939,7 +1939,7 @@ AerodactylEvosMoves:
 	db 0
 ; Learnset
 	db 33, SUPERSONIC
-	db 38, BITE
+	db 38, ROCK_SLIDE ; RIMPIAZZATA BITE Harzen 18/03/2023
 	db 45, TAKE_DOWN
 	db 54, HYPER_BEAM
 	db 0
@@ -2033,7 +2033,7 @@ CharizardEvosMoves:
 ; Learnset
 	db 9, EMBER
 	db 15, LEER
-	db 24, RAGE
+	db 24, FLY ;RIMPIAZZATA RAGE Harzen 18/03/2023
 	db 36, SLASH
 	db 46, FLAMETHROWER
 	db 55, FIRE_SPIN
@@ -2093,8 +2093,8 @@ VileplumeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, POISONPOWDER
-	db 17, STUN_SPORE
+	db 15, SLUDGE ;RIMPIAZZATA POISONPOWDER Harzen 18/03/2023
+	db 17, MEGA_DRAIN ;RIMPIAZZATA STUN_SPORE Harzen 18/03/2023
 	db 19, SLEEP_POWDER
 	db 0
 
@@ -2131,6 +2131,6 @@ VictreebelEvosMoves:
 	db 0
 ; Learnset
 	db 13, WRAP
-	db 15, POISONPOWDER
-	db 18, SLEEP_POWDER
+	db 15, STUN_SPORE ;RIMPIAZZATA POISON_POWDER Harzen 18/03/2023
+	db 18, RAZOR_LEAF ;RIMPIAZZATA SLEEP_POWDER
 	db 0
