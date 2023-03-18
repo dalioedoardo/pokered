@@ -61,7 +61,7 @@ _Route10BattleText4::
 	
 	para "I'm Elia"
 	line "the Knight."
-	line "I fear"
+	cont "I fear"
 	cont "NOTHING!"
 	done
 

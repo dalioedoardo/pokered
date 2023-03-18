@@ -13,7 +13,7 @@ Route12_Object:
 
 	def_object_events
 	object_event 10, 62, SPRITE_SNORLAX, STAY, DOWN, 1 ; person
-	object_event 15, 35, SPRITE_FISHER, STAY, DOWN, 2, OPP_HIKER, 3 ; NILOX - harzen 16/03/2023
+	object_event 15, 35, SPRITE_FISHER, STAY, DOWN, 2, OPP_HIKER, 15 ; NILOX - harzen 16/03/2023
 	object_event  5, 39, SPRITE_FISHER, STAY, UP, 3, OPP_FISHER, 4
 	object_event 11, 92, SPRITE_COOLTRAINER_M, STAY, LEFT, 4, OPP_JR_TRAINER_M, 9
 	object_event 14, 76, SPRITE_SUPER_NERD, STAY, UP, 5, OPP_ROCKER, 2
