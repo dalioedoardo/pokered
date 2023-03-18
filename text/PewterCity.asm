@@ -9,15 +9,19 @@ _PewterCityText1::
 	done
 
 _PewterCityText2::
-	text "There aren't many"
-	line "serious #MON"
-	cont "trainers here!"
+	text "I'm the PEWTER"
+	line "POLICE OFFICER!"
 
-	para "They're all like"
-	line "BUG CATCHERs,"
-	cont "but PEWTER GYM's"
-	cont "BROCK is totally"
-	cont "into it!"
+	para "I'm searching"
+	line "for Rodino',"
+	cont "a dangerous"
+	cont "dealer!"
+	
+	para "He's a former"
+	line "mathematician"
+	cont "that chose"
+	cont "the path of"
+	cont "crime!"
 	done
 
 _PewterCityText_193f1::
