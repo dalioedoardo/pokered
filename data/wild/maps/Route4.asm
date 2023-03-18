@@ -9,7 +9,7 @@ IF DEF(_RED)
 	db 10, EKANS
 	db 12, RATTATA
 	db 12, SPEAROW
-	db  8, EKANS
+	db  8, SANDSHREW ;Harzen 18/03/2023
 	db 12, EKANS
 ENDC
 IF DEF(_BLUE)
@@ -18,7 +18,7 @@ IF DEF(_BLUE)
 	db 10, SANDSHREW
 	db 12, RATTATA
 	db 12, SPEAROW
-	db  8, SANDSHREW
+	db  8, EKANS ;Harzen 18/03/2023
 	db 12, SANDSHREW
 ENDC
 	end_grass_wildmons

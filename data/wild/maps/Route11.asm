@@ -19,7 +19,7 @@ IF DEF(_BLUE)
 	db 15, SANDSHREW
 ENDC
 	db 17, SPEAROW
-	db 11, DROWZEE
+	db 11, FARFETCHD
 	db 15, DROWZEE
 	end_grass_wildmons
 

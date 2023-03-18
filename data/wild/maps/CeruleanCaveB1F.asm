@@ -12,8 +12,8 @@ ENDC
 IF DEF(_BLUE)
 	db 57, SANDSLASH
 ENDC
-	db 65, DITTO
-	db 63, DITTO
+	db 65, NIDOKING ;Harzen 18/03/2023
+	db 65, NIDOQUEEN ;Harzen 18/03/2023
 	db 67, DITTO
 	end_grass_wildmons
 

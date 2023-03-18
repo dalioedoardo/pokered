@@ -20,7 +20,7 @@ IF DEF(_BLUE)
 	db 26, BELLSPROUT
 	db 30, WEEPINBELL
 ENDC
-	db 28, PIDGEOTTO
+	db 28, LICKITUNG ;Harzen 18/03/2023
 	db 30, PIDGEOTTO
 	end_grass_wildmons
 

@@ -9,7 +9,7 @@ IF DEF(_RED)
 	db  2, NIDORAN_M
 	db  3, SPEAROW
 	db  5, SPEAROW
-	db  3, NIDORAN_F
+	db  3, SQUIRTLE ;Harzen 18/03/2023
 	db  4, NIDORAN_F
 ENDC
 IF DEF(_BLUE)
@@ -20,7 +20,7 @@ IF DEF(_BLUE)
 	db  2, NIDORAN_F
 	db  3, SPEAROW
 	db  5, SPEAROW
-	db  3, NIDORAN_M
+	db  3, SQUIRTLE ;Harzen 18/03/2023
 	db  4, NIDORAN_M
 ENDC
 	end_grass_wildmons

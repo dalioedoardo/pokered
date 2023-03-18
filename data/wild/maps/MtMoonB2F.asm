@@ -9,7 +9,7 @@ MtMoonB2FWildMons:
 	db 12, PARAS
 	db 10, CLEFAIRY
 	db 12, ZUBAT
-	db 12, CLEFAIRY
+	db 12, SNORLAX ;Harzen 18/03/2023
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

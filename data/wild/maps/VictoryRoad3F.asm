@@ -9,7 +9,7 @@ VictoryRoad3FWildMons:
 	db 43, GRAVELER
 	db 41, GOLBAT
 	db 42, MACHOKE
-	db 45, MACHOKE
+	db 45, MACHAMP ;Harzen 18/03/2023
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

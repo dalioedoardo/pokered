@@ -13,7 +13,7 @@ IF DEF(_RED)
 	db 36, ELECTABUZZ
 ENDC
 IF DEF(_BLUE)
-	db 33, RAICHU
+	db 33, ELECTABUZZ ; Harzen 18/03/2023
 	db 36, RAICHU
 ENDC
 	end_grass_wildmons

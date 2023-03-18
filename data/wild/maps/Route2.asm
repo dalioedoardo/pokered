@@ -4,7 +4,6 @@ Route2WildMons:
 	db  3, PIDGEY
 	db  4, PIDGEY
 	db  4, RATTATA
-	db  5, PIDGEY
 IF DEF(_RED)
 	db  3, WEEDLE
 	db  2, RATTATA
@@ -19,6 +18,7 @@ IF DEF(_BLUE)
 	db  4, CATERPIE
 	db  5, CATERPIE
 ENDC
+	db  5, MR_MIME ;Harzen 18/03/2023
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

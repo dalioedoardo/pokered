@@ -22,7 +22,7 @@ IF DEF(_BLUE)
 	db 29, SEEL
 	db 39, GOLDUCK
 ENDC
-	db 32, GOLBAT
+	db 27, JYNX ;Harzen 18/03/2023
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
