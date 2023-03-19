@@ -19,9 +19,8 @@ _PewterCityText2::
 	
 	para "He's a former"
 	line "mathematician"
-	cont "that chose"
-	cont "the path of"
-	cont "crime!"
+	cont "that chose the"
+	cont "path of crime!"
 	done
 
 _PewterCityText_193f1::
