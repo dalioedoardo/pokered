@@ -1742,9 +1742,9 @@ _IntroduceRivalText::
 _OakSpeechText3::
 	text "<PLAYER>!"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "Are you ready"
+	line "to REALLY catch"
+	cont "them all?"
 
 	para "A world of dreams"
 	line "and adventures"
