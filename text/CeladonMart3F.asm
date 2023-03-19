@@ -48,14 +48,14 @@ _CeladonMart3Text3::
 _CeladonMart3Text4::
 	text "Come on GRAVELER!"
 
-	para "I love GRAVELER!"
+	para "I love GOLEM!"
 	line "I collect them!"
 
 	para "Huh?"
 
-	para "GRAVELER turned"
-	line "into a different"
-	cont "#MON!"
+	para "GRAVELER has not"
+	line "evolved? Maybe"
+	cont "I was unlucky!"
 	done
 
 _CeladonMart3Text5::
