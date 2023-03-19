@@ -15,7 +15,7 @@ _PewterCityText2::
 	para "I'm searching"
 	line "for Rodino',"
 	cont "a dangerous"
-	cont "dealer!"
+	cont "fossil dealer!"
 	
 	para "He's a former"
 	line "mathematician"
