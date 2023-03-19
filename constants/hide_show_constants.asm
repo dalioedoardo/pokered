@@ -157,7 +157,7 @@ DEF SHOW EQU $15
 	const HS_SILPH_CO_2F_5                 ; 8D
 	const HS_SILPH_CO_3F_1                 ; 8E
 	const HS_SILPH_CO_3F_2                 ; 8F
-	const HS_SILPH_CO_3F_ITEM              ; 90 X
+	const HS_SILPH_CO_PORYGON_GIFT         ; 90 Harzen 19/03/2023 ex-hyperpotion
 	const HS_SILPH_CO_4F_1                 ; 91
 	const HS_SILPH_CO_4F_2                 ; 92
 	const HS_SILPH_CO_4F_3                 ; 93

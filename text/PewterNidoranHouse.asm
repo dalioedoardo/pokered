@@ -68,6 +68,7 @@ _PewterHouse1Text3_1caee::
 	done
 
 _PewterHouse1Text3_1caf3::
-	text "You have too much"
-	line "stuff with you!"
+	text "You have COUGH"
+	line "too much stuff"
+	cont "with COUGH you!"
 	done

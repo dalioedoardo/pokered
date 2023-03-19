@@ -59,7 +59,7 @@ SilphCo3F_TextPointers:
 	dw SilphCo3Text1
 	dw SilphCo3Text2
 	dw SilphCo3Text3
-	dw PickUpItemText
+	dw SilphCo3Text4
 
 SilphCo3TrainerHeaders:
 	def_trainers 2
@@ -122,3 +122,14 @@ SilphCo3EndBattleText2:
 SilphCo3AfterBattleText2:
 	text_far _SilphCo3AfterBattleText2
 	text_end
+
+SilphCo3Text4:
+	text_asm
+	lb bc, PORYGON, 23
+	call GivePokemon
+	jr nc, .party_full
+	ld a, HS_SILPH_CO_PORYGON_GIFT
+	ld [wMissableObjectIndex], a
+	predef HideObject
+.party_full
+	jp TextScriptEnd

@@ -19,7 +19,7 @@ PewterHouse1Text2:
 	text_end
 
 PewterHouse1Text3:
-	text_asm	
+	text_asm
 	CheckEvent EVENT_GOT_HELIX_FOSSIL
 	jr nz, .alreadyGotHelix
 	CheckEvent EVENT_GOT_DOME_FOSSIL
