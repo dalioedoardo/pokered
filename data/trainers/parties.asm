@@ -304,7 +304,7 @@ BurglarData:
 ; Mansion 2F
 	db 34, CHARMANDER, CHARMELEON, 0
 ; Mansion 3F
-	db 38, NINETALES, 0
+	db 38, MAGMAR, 0
 ; Mansion B1F
 	db 34, GROWLITHE, PONYTA, 0
 
@@ -313,7 +313,7 @@ EngineerData:
 	db 21, VOLTORB, MAGNEMITE, 0
 ; Route 11
 	db 21, MAGNEMITE, 0
-	db 18, MAGNEMITE, MAGNEMITE, MAGNETON, 0
+	db 18, MAGNEMITE, MAGNEMITE, ELECTABUZZ, 0
 
 UnusedJugglerData:
 ; none
