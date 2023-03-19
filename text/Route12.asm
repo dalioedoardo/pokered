@@ -34,7 +34,7 @@ _Route12AfterBattleText1::
 	para "Three years ago"
 	line "he said he was"
 	cont "repairing his"
-	cont "bicycle..."
+	cont "bike..."
 	done
 
 _Route12BattleText2::

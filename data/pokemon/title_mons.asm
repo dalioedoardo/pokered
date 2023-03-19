@@ -1,7 +1,7 @@
 TitleMons:
 ; mons on the title screen are randomly chosen from here
 IF DEF(_RED)
-	db STARTER1
+	db CHARIZARD
 	db STARTER2
 	db STARTER3
 	db WEEDLE
@@ -19,7 +19,7 @@ IF DEF(_RED)
 	db MAGIKARP
 ENDC
 IF DEF(_BLUE)
-	db STARTER2
+	db BLASTOISE
 	db STARTER1
 	db STARTER3
 	db MANKEY

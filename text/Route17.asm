@@ -36,6 +36,10 @@ _Route17AfterBattleText2::
 	line "presence of a"
 	cont "strong trainer"
 	cont "in route 10."
+	
+	para "He's ready"
+	line "for a fierce"
+	cont "battle!"
 	done
 
 _Route17BattleText3::
