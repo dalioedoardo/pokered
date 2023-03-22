@@ -2,10 +2,10 @@ CeruleanCave2FWildMons:
 	def_grass_wildmons 15 ; encounter rate
 	db 51, MAROWAK
 	db 52, BUTTERFREE
+	db 52, BEEDRILL ;Harzen 22/03/2023
 	db 53, DODRIO
 	db 55, MACHAMP ;Harzen 18/03/2023
 	db 52, GOLEM ;Harzen 22/03/2023
-	db 56, BEEDRILL ;Harzen 22/03/2023
 	db 58, VENUSAUR ; Harzen 22/03/2023
 	db 54, WIGGLYTUFF
 	db 55, RHYDON
