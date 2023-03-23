@@ -6,7 +6,7 @@ SuperRodData:
 	dbw CERULEAN_CITY,       .Group3
 	dbw VERMILION_CITY,      .Group4
 	dbw CELADON_CITY,        .Group5
-	dbw FUCHSIA_CITY,        .Group10
+	dbw FUCHSIA_CITY,        .Group9
 	dbw CINNABAR_ISLAND,     .Group8
 	dbw ROUTE_4,             .Group3
 	dbw ROUTE_6,             .Group4
@@ -20,7 +20,7 @@ SuperRodData:
 	dbw ROUTE_20,            .Group8
 	dbw ROUTE_21,            .Group8
 	dbw ROUTE_22,            .Group2
-	dbw ROUTE_23,            .Group7
+	dbw ROUTE_23,            .Group9
 	dbw ROUTE_24,            .Group3
 	dbw ROUTE_25,            .Group3
 	dbw CERULEAN_GYM,        .Group3
@@ -31,9 +31,9 @@ SuperRodData:
 	dbw SAFARI_ZONE_NORTH,   .Group6
 	dbw SAFARI_ZONE_WEST,    .Group6
 	dbw SAFARI_ZONE_CENTER,  .Group6
-	dbw CERULEAN_CAVE_2F,    .Group9
-	dbw CERULEAN_CAVE_B1F,   .Group9
-	dbw CERULEAN_CAVE_1F,    .Group9
+	dbw CERULEAN_CAVE_2F,    .Group10
+	dbw CERULEAN_CAVE_B1F,   .Group10
+	dbw CERULEAN_CAVE_1F,    .Group10
 	db -1 ; end
 
 ; fishing groups
@@ -81,21 +81,21 @@ SuperRodData:
 
 .Group8:
 	db 4
-	db 55, STARMIE
-	db 54, SEADRA
-	db 52, GYARADOS
-	db 57, LAPRAS
+	db 15, STARYU
+	db 15, HORSEA
+	db 15, SHELLDER
+	db 15, GOLDEEN
 
 .Group9:
 	db 4
-	db 63, SLOWBRO
-	db 62, POLIWRATH
-	db 65, GYARADOS
-	db 68, LAPRAS
+	db 23, SLOWBRO
+	db 23, SEAKING
+	db 23, KINGLER
+	db 23, SEADRA
 
 .Group10:
 	db 4
-	db 53, TENTACRUEL
-	db 58, KINGLER
-	db 57, GYARADOS
-	db 54, LAPRAS
+	db 59, GYARADOS
+	db 58, LAPRAS
+	db 56, KINGLER
+	db 61, STARMIE
