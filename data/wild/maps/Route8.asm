@@ -2,8 +2,8 @@ Route8WildMons:
 	def_grass_wildmons 15 ; encounter rate
 	db 18, PIDGEY
 IF DEF(_RED)
-	db 18, MANKEY
-	db 17, EKANS
+	db 18, GRIMER ;Harzen 23/03/2023
+	db 17, KOFFING ;Harzen 23/03/2023
 	db 16, GROWLITHE
 	db 20, PIDGEY
 	db 20, MANKEY
@@ -13,8 +13,8 @@ IF DEF(_RED)
 	db 18, GROWLITHE
 ENDC
 IF DEF(_BLUE)
-	db 18, MEOWTH
-	db 17, SANDSHREW
+	db 18, KOFFING ;Harzen 23/03/2023
+	db 17, GRIMER ;Harzen 23/03/2023
 	db 16, VULPIX
 	db 20, PIDGEY
 	db 20, MEOWTH
