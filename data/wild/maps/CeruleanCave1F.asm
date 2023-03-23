@@ -1,6 +1,6 @@
 CeruleanCave1FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 53, GOLEM
+	db 53, MACHAMP
 	db 52, ALAKAZAM
 	db 57, SNORLAX
 	db 59, BLASTOISE
