@@ -30,8 +30,8 @@ _Mansion4AfterBattleText2::
 
 _Mansion4Text7::
 	text "Diary; Sept. 1"
-	line "MEWTWO is far too"
-	cont "powerful."
+	line "1953. MEWTWO is"
+	cont "far too powerful."
 
 	para "We have failed to"
 	line "curb its vicious"

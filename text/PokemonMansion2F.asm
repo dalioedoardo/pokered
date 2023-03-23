@@ -25,19 +25,29 @@ _Mansion2AfterBattleText1::
 
 _Mansion2Text3::
 	text "Diary: July 5"
-	line "Guyana,"
+	line "1952 Guyana,"
 	cont "South America"
 
 	para "A new #MON was"
 	line "discovered deep"
 	cont "in the jungle."
+	
+	para "We christened the"
+	line "newly discovered"
+	cont "#MON, MEW."
 	done
 
 _Mansion2Text4::
-	text "Diary: July 10"
-	line "We christened the"
-	cont "newly discovered"
-	cont "#MON, MEW."
+	text "Diary: Oct. 10"
+	line "1952. Today we"
+	cont "make the 1029th"
+	cont "attempt to clone"
+	cont "Mew."
+
+	para "We hope that"
+	line "this time the"
+	cont "clone won't"
+	cont "melt down."
 	done
 
 _Mansion2Text_520c2::
