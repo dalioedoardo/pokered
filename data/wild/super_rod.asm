@@ -81,21 +81,21 @@ SuperRodData:
 
 .Group8:
 	db 4
-	db 15, STARYU
-	db 15, HORSEA
-	db 15, SHELLDER
-	db 15, GOLDEEN
+	db 55, STARMIE
+	db 54, SEADRA
+	db 52, GYARADOS
+	db 57, LAPRAS
 
 .Group9:
 	db 4
-	db 23, SLOWBRO
-	db 23, SEAKING
-	db 23, KINGLER
-	db 23, SEADRA
+	db 63, SLOWBRO
+	db 62, POLIWRATH
+	db 65, GYARADOS
+	db 68, LAPRAS
 
 .Group10:
 	db 4
-	db 23, SEAKING
-	db 15, KRABBY
-	db 15, GOLDEEN
-	db 15, MAGIKARP
+	db 53, TENTACRUEL
+	db 58, KINGLER
+	db 57, GYARADOS
+	db 54, LAPRAS
