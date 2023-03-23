@@ -42,11 +42,9 @@ _Mansion2Text4::
 	line "1952. Today we"
 	cont "make the 1029th"
 	cont "attempt to clone"
-	cont "Mew."
-
-	para "We hope that"
-	line "this time the"
-	cont "clone won't"
+	cont "Mew. We hope"
+	cont "that this time"
+	cont "the clone won't"
 	cont "melt down."
 	done
 

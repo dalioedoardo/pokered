@@ -272,7 +272,7 @@ NidokingEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 8, HORN_ATTACK
+	db 8, HORN_DRILL ;Harzen 23/03/2023
 	db 14, EARTHQUAKE ; RIMPIAZZATO POISON_STING Harzen 18/03/2023
 	db 23, HYPER_BEAM ;RIMPIAZZATO THRASH Harzen 18/03/2023
 	db 0
@@ -1528,10 +1528,10 @@ HypnoEvosMoves:
 ; Learnset
 	db 12, DISABLE
 	db 17, CONFUSION
-	db 24, HEADBUTT
-	db 33, HYPNOSIS ;rimpiazzata POISON_GAS harzen 18/03/2023
-	db 37, PSYCHIC_M
-	db 43, MEDITATE
+	db 24, HEADBUTT ;Harzen 23/03/2023 aggiornato ordine
+	db 33, PSYCHIC_M ;rimpiazzata POISON_GAS harzen 18/03/2023
+	db 37, MEDITATE 
+	db 43, HYPNOSIS
 	db 0
 
 GolbatEvosMoves:
