@@ -10,7 +10,7 @@ IF DEF(_RED)
 	db 34, PONYTA
 	db 35, GRIMER
 	db 42, MAGMAR ;Harzen 18/03/2023
-	db 42, MUK
+	db 42, DITTO ;Harzen 23/03/2023
 ENDC
 IF DEF(_BLUE)
 	db 33, GRIMER
@@ -22,7 +22,7 @@ IF DEF(_BLUE)
 	db 34, PONYTA
 	db 35, KOFFING
 	db 38, MAGMAR
-	db 42, WEEZING
+	db 42, DITTO ;Harzen 23/03/2023
 ENDC
 	end_grass_wildmons
 

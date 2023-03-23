@@ -3,7 +3,7 @@ PokemonMansion2FWildMons:
 IF DEF(_RED)
 	db 32, GROWLITHE
 	db 34, KOFFING
-	db 34, KOFFING
+	db 34, DITTO  ;Harzen 23/03/2023
 	db 30, PONYTA
 	db 30, KOFFING
 	db 32, PONYTA
@@ -15,7 +15,7 @@ ENDC
 IF DEF(_BLUE)
 	db 32, VULPIX
 	db 34, GRIMER
-	db 34, GRIMER
+	db 34, DITTO ;Harzen 23/03/2023
 	db 30, PONYTA
 	db 30, GRIMER
 	db 32, PONYTA
