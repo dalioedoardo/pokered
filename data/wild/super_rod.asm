@@ -20,7 +20,7 @@ SuperRodData:
 	dbw ROUTE_20,            .Group8
 	dbw ROUTE_21,            .Group8
 	dbw ROUTE_22,            .Group2
-	dbw ROUTE_23,            .Group9
+	dbw ROUTE_23,            .Group7
 	dbw ROUTE_24,            .Group3
 	dbw ROUTE_25,            .Group3
 	dbw CERULEAN_GYM,        .Group3
