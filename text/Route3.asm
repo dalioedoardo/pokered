@@ -9,20 +9,20 @@ _Route3Text1::
 	done
 
 _Route3BattleText1::
-	text "Hey! I met you in"
-	line "VIRIDIAN FOREST!"
+	text ".... Did you say"
+	line "hi to the Mayor?"
 	done
 
 _Route3EndBattleText1::
 	text "You"
-	line "beat me again!"
+	line "are strong!"
 	prompt
 
 _Route3AfterBattleText1::
-	text "There are other"
-	line "kinds of #MON"
-	cont "than those found"
-	cont "in the forest!"
+	text "The Mayor of"
+	line "PEWTER CITY is"
+	cont "such an amazing"
+	cont "person!"
 	done
 
 _Route3BattleText2::
