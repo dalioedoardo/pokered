@@ -9,8 +9,9 @@ _Route3Text1::
 	done
 
 _Route3BattleText1::
-	text ".... Did you say"
-	line "hi to the Mayor?"
+	text "Have you greeted"
+	line "the Master before"
+  cont "leaving the city?"
 	done
 
 _Route3EndBattleText1::
@@ -19,10 +20,11 @@ _Route3EndBattleText1::
 	prompt
 
 _Route3AfterBattleText1::
-	text "The Mayor of"
+	text "The mayor of"
 	line "PEWTER CITY is"
 	cont "such an amazing"
-	cont "person!"
+	cont "person! He is our"
+  cont "Holy Master!"
 	done
 
 _Route3BattleText2::

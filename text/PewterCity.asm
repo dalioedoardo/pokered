@@ -55,8 +55,8 @@ _PewterCityText_19427::
 	para "They also call me"
 	line "'Master'."
 
-	para "When you get"
-	line "stronger, come"
+	para "After facing the"
+	line "strongest, come"
 	cont "and visit me."
 	done
 
