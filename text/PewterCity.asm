@@ -16,7 +16,7 @@ _PewterCityText2::
 	line "for Rodino',"
 	cont "a dangerous"
 	cont "fossil dealer!"
-	
+
 	para "He's a former"
 	line "mathematician"
 	cont "that chose the"
@@ -51,10 +51,10 @@ _PewterCityText13::
 _PewterCityText_19427::
 	text "I'm Andrea, mayor"
 	line "of Pewter City."
-	
+
 	para "They also call me"
 	line "'Master'."
-	
+
 	para "When you get"
 	line "stronger, come"
 	cont "and visit me."
@@ -63,29 +63,28 @@ _PewterCityText_19427::
 _PewterCityText_1942c::
 	text "Wow!"
 	line "You are strong!"
-	
+
 	para "One trainer in"
 	line "route 11 is"
 	cont "looking for a"
 	cont "worthy opponent."
-	cont "His name is Edo."
 	done
 
 _PewterCityText_19431::
 	text "... You beat"
 	line "them all?"
 	cont "Congratulation!"
-	
+
 	para "If your team is"
 	line "not full, take"
 	cont "this."
 	done
-	
+
 _PewterCityText_19438::
 	text "Mew is the"
 	line "primordial"
 	cont "#MON."
-	
+
 	para "Treat him"
 	line "gently!"
 	done
