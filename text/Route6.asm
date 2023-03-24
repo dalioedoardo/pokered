@@ -26,8 +26,9 @@ _Route6EndBattleText2::
 	prompt
 
 _Route6BattleText3::
-	text "There aren't many"
-	line "bugs out here."
+	text "BLEAH! All this"
+	line "trash comes from"
+  cont "SAFFRON CITY!"
 	done
 
 _Route6EndBattleText3::
@@ -36,7 +37,7 @@ _Route6EndBattleText3::
 	prompt
 
 _Route6AfterBattleText3::
-	text "I like bugs, so"
+	text "I like nature, so"
 	line "I'm going back to"
 	cont "VIRIDIAN FOREST."
 	done
