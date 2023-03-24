@@ -1196,9 +1196,9 @@ SandslashEvosMoves:
 ; Learnset
 	db 10, SAND_ATTACK
 	db 17, SLASH
-	db 27, POISON_STING
-	db 36, SWIFT
-	db 47, FURY_SWIPES
+	db 27, DIG
+	db 36, SWORDS_DANCE
+	db 47, EARTHQUAKE
 	db 0
 
 OmanyteEvosMoves:
@@ -1416,8 +1416,8 @@ PrimeapeEvosMoves:
 ; Learnset
 	db 15, FOCUS_ENERGY ; rimpiazzata KARATE_CHOP Harzen 18/03/2023
 	db 21, SUBMISSION ; rimpiazzata FURY_SWIPES Harzen 18/03/2023
-	db 27, KARATE_CHOP ; RIMPIAZZATA FOCUS_ENERGY Harzen 18/03/2023
-	db 37, SEISMIC_TOSS
+	db 27, SEISMIC_TOSS ; RIMPIAZZATA FOCUS_ENERGY Harzen 18/03/2023
+	db 37, KARATE_CHOP
 	db 46, THRASH
 	db 0
 
@@ -1530,7 +1530,7 @@ HypnoEvosMoves:
 	db 17, CONFUSION
 	db 24, HEADBUTT ;Harzen 23/03/2023 aggiornato ordine
 	db 33, PSYCHIC_M ;rimpiazzata POISON_GAS harzen 18/03/2023
-	db 37, MEDITATE 
+	db 37, MEDITATE
 	db 43, HYPNOSIS
 	db 0
 
