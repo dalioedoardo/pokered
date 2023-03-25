@@ -1,9 +1,9 @@
 _CeladonCityText1::
-	text "I got my KOFFING"
+	text "I got my PONYTA"
 	line "in CINNABAR!"
 
-	para "It's nice, but it"
-	line "breathes poison"
+	para "It's nice, but"
+	line "it scorches me"
 	cont "when it's angry!"
 	done
 
