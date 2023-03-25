@@ -16,30 +16,33 @@ _Route17AfterBattleText1::
 
 ;harzen 17/03/2023 questo è Leo
 _Route17BattleText2::
-	text "Hi! I'm Leo."
-	line "I've been cycling"
-	cont "non-stop for 3"
-	cont "years by now."
-	
-	para "Now I fully"
+	text "...... I've been"
+	line "cycling non-stop"
+	cont "for three years"
+	cont "by now."
+
+	para "Finally I fully"
 	line "understand the"
 	cont "Cycle of Life!"
 	done
 
 _Route17EndBattleText2::
 	text "..."
-	line "What a WISTORM!"
+	line "SHIT!"
 	prompt
 
 _Route17AfterBattleText2::
-	text "I sense the"
-	line "presence of a"
-	cont "strong trainer"
-	cont "in route 10."
-	
-	para "He's ready"
-	line "for a fierce"
-	cont "battle!"
+	text "... Sorry, anger"
+	line "blinded me......"
+
+	para "One need to stop"
+	line "before entering"
+	cont "that dark place."
+
+	para "......? Are you"
+  line "stupid? It's a"
+  cont "figure of speech,"
+  cont "DUMBASS!!!!!"
 	done
 
 _Route17BattleText3::
