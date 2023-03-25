@@ -42,18 +42,15 @@ _PewterCityText_193fb::
 
 _PewterCityText13::
 	text "It's right here!"
-	line "You have to pay"
-	cont "to get in, but"
-	cont "it's worth it!"
+	line "It was founded"
+	cont "by our mayor and"
+	cont "it is awesome!"
 	cont "See you around!"
 	done
 
 _PewterCityText_19427::
 	text "I'm Andrea, mayor"
 	line "of Pewter City."
-
-	para "They also call me"
-	line "'Master'."
 
 	para "After facing the"
 	line "strongest, come"

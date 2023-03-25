@@ -24,7 +24,7 @@ _Route3AfterBattleText1::
 	line "PEWTER CITY is"
 	cont "such an amazing"
 	cont "person! He is our"
-  cont "Holy Master!"
+  cont "dear Master!"
 	done
 
 _Route3BattleText2::
@@ -46,7 +46,7 @@ _Route3AfterBattleText2::
 	done
 
 _Route3BattleText3::
-	text "You looked at me,"
+	text "You looked at me"
 	line "didn't you?"
 	done
 
@@ -80,9 +80,9 @@ _Route3AfterBattleText4::
 	done
 
 _Route3BattleText5::
-	text "That look you"
-	line "gave me, it's so"
-	cont "intriguing!"
+	text "The Master once"
+	line "told me that I"
+	cont "am promising!"
 	done
 
 _Route3EndBattleText5::
@@ -90,13 +90,12 @@ _Route3EndBattleText5::
 	prompt
 
 _Route3AfterBattleText5::
-	text "Avoid fights by"
-	line "not letting"
-	cont "people see you!"
+	text "I just need more"
+	line "training!"
 	done
 
 _Route3BattleText6::
-	text "Hey! You're not"
+	text "Hey! You're no"
 	line "wearing shorts!"
 	done
 
