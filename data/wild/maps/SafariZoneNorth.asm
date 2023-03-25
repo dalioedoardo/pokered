@@ -6,7 +6,7 @@ IF DEF(_RED)
 	db 23, PARAS
 	db 25, EXEGGCUTE
 	db 30, NIDORINO
-	db 27, EXEGGCUTE
+	db 27, SCYTHER ; Harzen 25/03/2023 reso non esclusivo più frequente
 	db 30, NIDORINA
 ENDC
 IF DEF(_BLUE)
@@ -15,7 +15,7 @@ IF DEF(_BLUE)
 	db 23, PARAS
 	db 25, EXEGGCUTE
 	db 30, NIDORINA
-	db 27, EXEGGCUTE
+	db 27, PINSIR ; Harzen 25/03/2023 reso non esclusivo più frequente
 	db 30, NIDORINO
 ENDC
 	db 32, VENOMOTH
