@@ -17,7 +17,7 @@ _Route17AfterBattleText1::
 ;harzen 17/03/2023 questo è Leo
 _Route17BattleText2::
 	text "...... I've been"
-	line "cycling non-stop"
+	line "cycling daily"
 	cont "for three years"
 	cont "by now."
 
@@ -32,8 +32,8 @@ _Route17EndBattleText2::
 	prompt
 
 _Route17AfterBattleText2::
-	text "... Sorry, anger"
-	line "blinded me......"
+	text "... Sorry, I was"
+	line "blinded by anger."
 
 	para "One need to stop"
 	line "before entering"
