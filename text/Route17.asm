@@ -42,7 +42,7 @@ _Route17AfterBattleText2::
 	para "......? Are you"
   line "stupid? It's a"
   cont "figure of speech,"
-  cont "DUMBASS!!!!!"
+  cont "DUMBASS!!!"
 	done
 
 _Route17BattleText3::
