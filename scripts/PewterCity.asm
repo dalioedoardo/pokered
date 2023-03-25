@@ -296,10 +296,10 @@ PewterCityText4:
 	call PrintText
 	ld a, [wPartyCount]
 	cp PARTY_LENGTH
-	jp z, .done
+	jp z, .done ; questo evita di farmi prendere Mew se ho il party pieno
 	lb bc, MEW, 5
 	call GivePokemon
-	jr nc, .done ; questo evita di settare l'evento se non ho preso Mew in squadra (non dovrebbe esserci neanche nel box, ma meglio controllare)
+	jr nc, .done ; questo evita di settare l'evento se non ho preso Mew in squadra
 	SetEvent EVENT_GOT_MEW
 	jr .done
 .alreadyGotMew
@@ -308,7 +308,7 @@ PewterCityText4:
 	jr .done
 .done
 	jp TextScriptEnd
-	
+
 .alreadyGotMewtext
 	text_far _PewterCityText_19438
 	text_end
@@ -317,18 +317,18 @@ PewterCityText4:
 	text_end
 .alreadyBeatenMewtwoText
 	text_far _PewterCityText_1942c
-	text_end	
+	text_end
 .notBeatenMewtwoText
 	text_far _PewterCityText_19427
 	text_end
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
 
 PewterCityText_19427:
 	text_far _PewterCityText_19427
