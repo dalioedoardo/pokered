@@ -13,7 +13,7 @@ _PewterHouse1Text3_notYet::
 	text "COUGH What do I"
 	line "do now, this is"
 	cont "not BANANE!"
-	
+
 	para "The police is"
 	line "COUGH just"
 	cont "outside COUGH"
@@ -21,7 +21,7 @@ _PewterHouse1Text3_notYet::
 
 	para "COUGH If only I"
 	line "could escape in"
-	cont "a vector"
+	cont "a vector COUGH"
 	cont "subspace..."
 
 	para "I COUGH need"
@@ -33,13 +33,13 @@ _PewterHouse1Text3_notYet::
 	cont "you want?"
 	cont "COUGH SCRAM!"
 	done
-	
+
 _PewterHouse1Text3_takeThisFossil::
 	text "Aaah! COUGH"
 	line "That's it! COUGH"
 	cont "I'm saved! I'm"
 	cont "COUGH a genious!"
-	
+
 
 	para "...Hey...COUGH"
 	line "... You... You"
