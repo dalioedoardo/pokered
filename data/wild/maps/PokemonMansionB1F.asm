@@ -9,8 +9,8 @@ IF DEF(_RED)
 	db 40, WEEZING
 	db 34, PONYTA
 	db 35, GRIMER
-	db 42, MAGMAR ;Harzen 18/03/2023
 	db 42, DITTO ;Harzen 23/03/2023
+	db 42, MAGMAR ;Harzen 18/03/2023
 ENDC
 IF DEF(_BLUE)
 	db 36, DITTO  ;Harzen 23/03/2023
