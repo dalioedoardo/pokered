@@ -22,7 +22,7 @@ IF DEF(_BLUE)
 	db 34, PONYTA
 	db 35, KOFFING
 	db 38, MAGMAR
-	db 42, DITTO ;Harzen 23/03/2023
+	db 40, MAGMAR ;Harzen 23/03/2023
 ENDC
 	end_grass_wildmons
 
