@@ -97,5 +97,5 @@ SuperRodData:
 	db 4
 	db 59, GYARADOS
 	db 58, LAPRAS
-	db 56, KINGLER
+	db 61, CLOYSTER
 	db 61, STARMIE
