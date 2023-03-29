@@ -12,8 +12,8 @@ CeruleanCave2F_Object:
 	def_bg_events
 
 	def_object_events
-	object_event 29,  9, SPRITE_POKE_BALL, STAY, NONE, 1, PP_UP
-	object_event  4, 15, SPRITE_POKE_BALL, STAY, NONE, 2, ULTRA_BALL
-	object_event 13,  6, SPRITE_POKE_BALL, STAY, NONE, 3, FULL_RESTORE
+	object_event 29,  9, SPRITE_FOSSIL, STAY, NONE, 1, DOME_FOSSIL ; Harzen 29/03/2023 per il Living Dex
+	object_event  4, 15, SPRITE_OLD_AMBER, STAY, NONE, 2, OLD_AMBER ; Harzen 29/03/2023 per completezza
+	object_event 13,  6, SPRITE_FOSSIL, STAY, NONE, 3, HELIX_FOSSIL ; Harzen 29/03/2023 per il Living Dex
 
 	def_warps_to CERULEAN_CAVE_2F
