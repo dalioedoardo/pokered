@@ -3962,7 +3962,7 @@ CheckForDisobedience:
 ; it was traded
 .monIsTraded
 ; what level might disobey?
-  CheckEvent EVENT_BEAT_MANSION_2_TRAINER_0 ;Harzen 31/03/2023 aggiunto nuovo check di obbedienza
+  CheckEvent EVENT_BEAT_MANSION_2_TRAINER_0 ;Harzen 31/03/2023 - se ho battuto Piccia, tutti obbediscono: aggiunto nuovo check di obbedienza
   ld a, 101
   jr nz, .next
 	ld hl, wObtainedBadges
