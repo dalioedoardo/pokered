@@ -3958,32 +3958,27 @@ CheckForDisobedience:
 	ret
 ; compare the mon's original trainer ID with the player's ID to see if it was traded
 .checkIfMonIsTraded
-	ld hl, wPartyMon1OTID
-	ld bc, wPartyMon2 - wPartyMon1
-	ld a, [wPlayerMonNumber]
-	call AddNTimes
-	ld a, [wPlayerID]
-	cp [hl]
-	jr nz, .monIsTraded
-	inc hl
-	ld a, [wPlayerID + 1]
-	cp [hl]
-	jp z, .canUseMove
+;Harzen 31/03/2023 KAIZO MODE - deleted all the checks: always considered 'traded'
 ; it was traded
 .monIsTraded
 ; what level might disobey?
+  CheckEvent EVENT_BEAT_MANSION_2_TRAINER_0 ;Harzen 31/03/2023 aggiunto nuovo check di obbedienza
+  ld a, 101
+  jr nz, .next
 	ld hl, wObtainedBadges
 	bit BIT_EARTHBADGE, [hl]
-	ld a, 101
+	ld a, 45 ;Harzen 31/03/2023 modificato il livello massimo di obbedienza (era 101)
 	jr nz, .next
 	bit BIT_MARSHBADGE, [hl]
-	ld a, 70
+	ld a, 40 ;Harzen 31/03/2023 modificato il livello massimo di obbedienza (era 70)
 	jr nz, .next
 	bit BIT_RAINBOWBADGE, [hl]
-	ld a, 50
+	ld a, 35 ;Harzen 31/03/2023 modificato il livello massimo di obbedienza (era 50)
 	jr nz, .next
 	bit BIT_CASCADEBADGE, [hl]
-	ld a, 30
+	ld a, 30 ;Harzen 31/03/2023 modificato il livello massimo di obbedienza (era 30)
+	bit BIT_BOULDERBADGE, [hl]
+	ld a, 20 ;Harzen 31/03/2023 aggiunto il livello massimo di obbedienza
 	jr nz, .next
 	ld a, 10
 .next
