@@ -70,8 +70,8 @@ DexRatingsTable:
 	dbw 120, DexRatingText_Own110To119
 	dbw 130, DexRatingText_Own120To129
 	dbw 140, DexRatingText_Own130To139
-	dbw 150, DexRatingText_Own140To149
-	dbw NUM_POKEMON + 1, DexRatingText_Own150To151
+	dbw 151, DexRatingText_Own140To149 ;Harzen 01/04/2023 voglio che mi dica che ho completato il dex SOLO quando ne ho 151
+	dbw NUM_POKEMON + 2, DexRatingText_Own150To151 ;Harzen 01/04/2023 sostituito il +1 con +2
 
 DexRatingText_Own0To9:
 	text_far _DexRatingText_Own0To9
