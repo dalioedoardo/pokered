@@ -12,7 +12,7 @@ Moves:
 ; Characteristics of each move.
 	table_width MOVE_LENGTH, Moves
 	move POUND,        NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
-	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, NORMAL,       100, 25
+	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, FIGHTING,       100, 25
 	move DOUBLESLAP,   TWO_TO_FIVE_ATTACKS_EFFECT,  15, NORMAL,        85, 10
 	move COMET_PUNCH,  TWO_TO_FIVE_ATTACKS_EFFECT,  18, NORMAL,        85, 15
 	move MEGA_PUNCH,   NO_ADDITIONAL_EFFECT,        80, NORMAL,        85, 20
@@ -132,7 +132,7 @@ Moves:
 	move MIRROR_MOVE,  MIRROR_MOVE_EFFECT,           0, FLYING,       100, 20
 	move SELFDESTRUCT, EXPLODE_EFFECT,             130, NORMAL,       100,  5
 	move EGG_BOMB,     NO_ADDITIONAL_EFFECT,       100, NORMAL,        75, 10
-	move LICK,         PARALYZE_SIDE_EFFECT2,       20, GHOST,        100, 30
+	move LICK,         PARALYZE_SIDE_EFFECT2,       60, GHOST,        100, 30
 	move SMOG,         POISON_SIDE_EFFECT2,         20, POISON,        70, 20
 	move SLUDGE,       POISON_SIDE_EFFECT2,         65, POISON,       100, 20
 	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND,        85, 20
@@ -151,7 +151,7 @@ Moves:
 	move DREAM_EATER,  DREAM_EATER_EFFECT,         100, PSYCHIC_TYPE, 100, 15
 	move POISON_GAS,   POISON_EFFECT,                0, POISON,        55, 40
 	move BARRAGE,      TWO_TO_FIVE_ATTACKS_EFFECT,  15, NORMAL,        85, 20
-	move LEECH_LIFE,   DRAIN_HP_EFFECT,             20, BUG,          100, 15
+	move LEECH_LIFE,   DRAIN_HP_EFFECT,             80, BUG,          100, 15
 	move LOVELY_KISS,  SLEEP_EFFECT,                 0, NORMAL,        75, 10
 	move SKY_ATTACK,   CHARGE_EFFECT,              140, FLYING,        90,  5
 	move TRANSFORM,    TRANSFORM_EFFECT,             0, NORMAL,       100, 10
@@ -165,7 +165,7 @@ Moves:
 	move CRABHAMMER,   NO_ADDITIONAL_EFFECT,        90, WATER,         85, 10
 	move EXPLOSION,    EXPLODE_EFFECT,             170, NORMAL,       100,  5
 	move FURY_SWIPES,  TWO_TO_FIVE_ATTACKS_EFFECT,  18, NORMAL,        80, 15
-	move BONEMERANG,   ATTACK_TWICE_EFFECT,         50, GROUND,        90, 10
+	move BONEMERANG,   ATTACK_TWICE_EFFECT,         50, GHOST,        90, 10
 	move REST,         HEAL_EFFECT,                  0, PSYCHIC_TYPE, 100, 10
 	move ROCK_SLIDE,   NO_ADDITIONAL_EFFECT,        75, ROCK,          90, 10
 	move HYPER_FANG,   FLINCH_SIDE_EFFECT1,         80, NORMAL,        90, 15
