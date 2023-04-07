@@ -70,9 +70,9 @@ _BrockBoulerBadgeInfoText::
 	line "#MON LEAGUE"
 	cont "BADGE!"
 
-	para "Its bearer's"
-	line "#MON become"
-	cont "more powerful!"
+	para "The BOULDERBADGE"
+	line "makes all #MON"
+	cont "up to L20 obey!"
 
 	para "The technique"
 	line "FLASH can now be"

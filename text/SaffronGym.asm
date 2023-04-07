@@ -40,7 +40,7 @@ _SabrinaPostBattleAdviceText::
 _KogaMarshBadgeInfoText::
 	text "The MARSHBADGE"
 	line "makes #MON up"
-	cont "to L70 obey you!"
+	cont "to L40 obey you!"
 
 	para "Stronger #MON"
 	line "will become wild,"

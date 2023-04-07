@@ -50,7 +50,7 @@ _ErikaPostBattleAdviceText::
 _ErikaRainbowBadgeInfoText::
 	text "The RAINBOWBADGE"
 	line "will make #MON"
-	cont "up to L50 obey."
+	cont "up to L35 obey."
 
 	para "It also allows"
 	line "#MON to use"

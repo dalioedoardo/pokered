@@ -45,8 +45,8 @@ _GiovanniPostBattleAdviceText::
 
 _GiovanniEarthBadgeInfoText::
 	text "The EARTHBADGE"
-	line "makes #MON of"
-	cont "any level obey!"
+	line "makes #MON up"
+	cont "to L45 obey you!"
 
 	para "It is evidence of"
 	line "your mastery as a"
