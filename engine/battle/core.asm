@@ -3961,6 +3961,9 @@ CheckForDisobedience:
 ;Harzen 31/03/2023 KAIZO MODE - deleted all the checks: always considered 'traded'
 ; it was traded
 .monIsTraded
+  call BattleRandom ;Harzen 08/04/2023
+  cp 20 percent ; Harzen 08/04/2023, al xx% voglio bypassare tutta sta roba e attaccare
+  jp c, .canUseMove ;Harzen 08/04/2023
 ; what level might disobey?
   CheckEvent EVENT_BEAT_MANSION_2_TRAINER_0 ;Harzen 31/03/2023 - se ho battuto Piccia, tutti obbediscono: aggiunto nuovo check di obbedienza
   ld a, 101
