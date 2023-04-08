@@ -103,17 +103,21 @@ _PewterGymAfterBattleText1::
 	done
 
 _PewterGymGuidePreAdviceText::
-	text "Hiya! I can tell"
-	line "you have what it"
-	cont "takes to become a"
-	cont "#MON champ!"
+	text "Hiya! BROCK is"
+	line "insanely tough!"
+	cont "Every single foe"
+	cont "run away in tears!"
 
-	para "I'm no trainer,"
-	line "but I can tell"
-	cont "you how to win!"
+	para "... Well, except"
+	line "that kid... he"
+	cont "had a strange"
+  cont "looking #MON."
 
-	para "Let me take you"
-	line "to the top!"
+	para "He lives nearby"
+	line "the city, but"
+  cont "I doubt that you"
+  cont "can pay him a"
+  cont "visit..."
 	done
 
 _PewterGymGuideBeginAdviceText::
