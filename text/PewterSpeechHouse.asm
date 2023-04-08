@@ -1,11 +1,11 @@
 _PewterHouse2Text1::
-	text "#MON learn new"
-	line "techniques as"
-	cont "they grow!"
-
-	para "But, some moves"
-	line "must be taught by"
-	cont "the trainer!"
+	text "Beware of training"
+	line "your #MON too"
+	cont "much! My Nidoran"
+	cont "has just evolved"
+  cont "and now it doesn't"
+  cont "listen to a single"
+  cont "word that I say!"
 	done
 
 _PewterHouse2Text2::
