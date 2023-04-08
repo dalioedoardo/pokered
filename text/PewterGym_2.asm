@@ -72,7 +72,7 @@ _BrockBoulerBadgeInfoText::
 
 	para "The BOULDERBADGE"
 	line "makes all #MON"
-	cont "up to L20 obey!"
+	cont "up to L25 obey!"
 
 	para "The technique"
 	line "FLASH can now be"
