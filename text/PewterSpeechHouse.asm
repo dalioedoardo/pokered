@@ -4,7 +4,7 @@ _PewterHouse2Text1::
 	cont "much! My Nidoran"
 	cont "has just evolved"
   cont "and now it doesn't"
-  cont "listen to a single"
+  cont "listen to any"
   cont "word that I say!"
 	done
 
