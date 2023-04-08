@@ -3980,7 +3980,7 @@ CheckForDisobedience:
 	bit BIT_BOULDERBADGE, [hl]
 	ld a, 20 ;Harzen 31/03/2023 aggiunto il livello massimo di obbedienza
 	jr nz, .next
-	ld a, 10
+	ld a, 15
 .next
 	ld b, a
 	ld c, a
