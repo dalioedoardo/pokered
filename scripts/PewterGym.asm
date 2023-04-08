@@ -182,19 +182,6 @@ PewterGymGuideText:
 	jr nz, .afterBeat
 	ld hl, PewterGymGuidePreAdviceText
 	call PrintText
-	call YesNoChoice
-	ld a, [wCurrentMenuItem]
-	and a
-	jr nz, .PewterGymGuideBeginAdviceText
-	ld hl, PewterGymGuideBeginAdviceText
-	call PrintText
-	jr .PewterGymGuideAdviceText
-.PewterGymGuideBeginAdviceText
-	ld hl, PewterGymText_5c524
-	call PrintText
-.PewterGymGuideAdviceText
-	ld hl, PewterGymGuideAdviceText
-	call PrintText
 	jr .done
 .afterBeat
 	ld hl, PewterGymGuidePostBattleText

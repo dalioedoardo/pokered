@@ -105,8 +105,8 @@ _PewterGymAfterBattleText1::
 _PewterGymGuidePreAdviceText::
 	text "Hiya! BROCK is"
 	line "insanely tough!"
-	cont "Every single foe"
-	cont "run away in tears!"
+	cont "Every foe runs"
+	cont "away in tears!"
 
 	para "... Well, except"
 	line "that kid... he"
