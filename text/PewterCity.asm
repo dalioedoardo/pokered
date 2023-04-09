@@ -5,7 +5,7 @@ _PewterCityText1::
 
 	para "And without the"
 	line "BOULDER BADGE"
-	cont "my dear nidorina"
+	cont "my dear NIDORINA"
   cont "acts like a"
   cont "grumpy princess!"
 	done
