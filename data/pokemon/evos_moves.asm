@@ -1161,8 +1161,8 @@ SeadraEvosMoves:
 ; Learnset
 	db 19, SMOKESCREEN
 	db 24, LEER
-	db 30, WATER_GUN
-	db 41, AGILITY
+	db 30, AGILITY ;Rimpiazzata Water Gun Harzen 09/04/2023
+	db 41, DRAGON_RAGE ;Rimpiazzata AGILITY Harzen 09/04/2023
 	db 52, HYDRO_PUMP
 	db 0
 
