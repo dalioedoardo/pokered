@@ -1,11 +1,13 @@
 _PewterCityText1::
-	text "It's rumored that"
-	line "CLEFAIRYs came"
-	cont "from the moon!"
+	text "Ueeeeeeeeeeh!!!"
+	line "Not fair! BROCK"
+	cont "is too strong..."
 
-	para "They appeared "
-	line "after MOON STONE"
-	cont "fell on MT.MOON."
+	para "And without the"
+	line "BOULDER BADGE"
+	cont "my dear nidorina"
+  cont "acts like a"
+  cont "grumpy princess!"
 	done
 
 _PewterCityText2::
