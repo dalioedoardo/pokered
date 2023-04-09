@@ -487,7 +487,7 @@ ScytherEvosMoves:
 	db 24, DOUBLE_TEAM
 	db 29, SLASH
 	db 35, SWORDS_DANCE
-	db 42, HYPER_BEAM ;RIMPIAZZATA AGILITY Harzen 18/03/2023
+	db 42, CUT ;RIMPIAZZATA AGILITY Harzen 09/04/2023
 	db 0
 
 StaryuEvosMoves:
