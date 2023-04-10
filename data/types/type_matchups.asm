@@ -31,8 +31,10 @@ TypeEffects:
 	db PSYCHIC_TYPE, PSYCHIC_TYPE, NOT_VERY_EFFECTIVE
 	db ELECTRIC,     GRASS,        NOT_VERY_EFFECTIVE
 	db NORMAL,       ROCK,         NOT_VERY_EFFECTIVE
+  db NORMAL,       BUG,          NOT_VERY_EFFECTIVE ;Harzen 10/04/2023
 	db NORMAL,       GHOST,        NO_EFFECT
 	db GHOST,        GHOST,        SUPER_EFFECTIVE
+  db PSYCHIC_TYPE, GHOST,				 NOT_VERY_EFFECTIVE ;Harzen 10/04/2023
 	db ELECTRIC,     GROUND,       NO_EFFECT
 	db ELECTRIC,     FLYING,       SUPER_EFFECTIVE
 	db ICE,          WATER,        NOT_VERY_EFFECTIVE
@@ -72,10 +74,10 @@ TypeEffects:
 	db BUG,          FIRE,         NOT_VERY_EFFECTIVE
 	db BUG,          GRASS,        SUPER_EFFECTIVE
 	;db BUG,          FIGHTING,     NOT_VERY_EFFECTIVE ;Harzen 03/04/2023 commentata
-	;db BUG,          FLYING,       NOT_VERY_EFFECTIVE
+	db BUG,          FLYING,       NOT_VERY_EFFECTIVE
 	db BUG,          PSYCHIC_TYPE, SUPER_EFFECTIVE
-	db BUG,          GHOST,        NOT_VERY_EFFECTIVE
-	db BUG,          POISON,       SUPER_EFFECTIVE
+	;db BUG,          GHOST,        NOT_VERY_EFFECTIVE  ;Harzen 10/04/2023 commentata
+	;db BUG,          POISON,       SUPER_EFFECTIVE  ;Harzen 10/04/2023 commentata
 	db BUG,          ROCK,         NOT_VERY_EFFECTIVE ;Harzen 03/04/2023
 	db ROCK,         FIRE,         SUPER_EFFECTIVE
 	db ROCK,         FIGHTING,     NOT_VERY_EFFECTIVE
