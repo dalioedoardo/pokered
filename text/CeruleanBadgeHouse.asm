@@ -28,10 +28,16 @@ _CeruleanHouse2Text_74e96::
 	line "#MON increases"
 	cont "a little bit."
 
+	para "#MON up to L25"
+	line "will obey you."
+
+	para "Any higher, they"
+	line "become unruly!"
+
 	para "It also lets you"
 	line "use FLASH any"
 	cont "time you desire."
-	prompt
+	prompts
 
 _CeruleanHouse2Text_74e9b::
 	text "#MON up to L30"
@@ -56,7 +62,7 @@ _CeruleanHouse2Text_74ea0::
 	prompt
 
 _CeruleanHouse2Text_74ea5::
-	text "#MON up to L50"
+	text "#MON up to L35"
 	line "will obey you."
 
 	para "Any higher, they"
@@ -78,7 +84,7 @@ _CeruleanHouse2Text_74eaa::
 	prompt
 
 _CeruleanHouse2Text_74eaf::
-	text "#MON up to L70"
+	text "#MON up to L40"
 	line "will obey you."
 
 	para "Any higher, they"
@@ -92,6 +98,9 @@ _CeruleanHouse2Text_74eb4::
 	prompt
 
 _CeruleanHouse2Text_74eb9::
-	text "All #MON will"
-	line "obey you!"
+	text "#MON up to L45"
+	line "will obey you."
+
+	para "Any higher, they"
+	line "become unruly!"
 	prompt
