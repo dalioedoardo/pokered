@@ -37,7 +37,7 @@ _CeruleanHouse2Text_74e96::
 	para "It also lets you"
 	line "use FLASH any"
 	cont "time you desire."
-	prompts
+	prompt
 
 _CeruleanHouse2Text_74e9b::
 	text "#MON up to L30"
@@ -98,7 +98,7 @@ _CeruleanHouse2Text_74eb4::
 	prompt
 
 _CeruleanHouse2Text_74eb9::
-	text "#MON up to L45"
+	text "#MON up to L40"
 	line "will obey you."
 
 	para "Any higher, they"
