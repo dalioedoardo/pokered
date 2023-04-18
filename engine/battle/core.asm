@@ -3968,9 +3968,12 @@ CheckForDisobedience:
   CheckEvent EVENT_BEAT_MANSION_2_TRAINER_0 ;Harzen 31/03/2023 - se ho battuto Piccia, tutti obbediscono: aggiunto nuovo check di obbedienza
   ld a, 101
   jr nz, .next
+	CheckEvent EVENT_BEAT_MEWTWO ;Harzen 18/04/2023
+  ld a, 70
+  jr nz, .next
 	ld hl, wObtainedBadges
 	bit BIT_EARTHBADGE, [hl]
-	ld a, 45 ;Harzen 31/03/2023 modificato il livello massimo di obbedienza (era 101)
+	ld a, 60 ;Harzen 31/03/2023 modificato il livello massimo di obbedienza (era 101)
 	jr nz, .next
 	bit BIT_MARSHBADGE, [hl]
 	ld a, 40 ;Harzen 31/03/2023 modificato il livello massimo di obbedienza (era 70)
