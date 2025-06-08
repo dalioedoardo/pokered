@@ -317,9 +317,9 @@ LickitungEvosMoves:
 ; Learnset
 	db 7, STOMP
 	db 15, DISABLE
-	db 23, DEFENSE_CURL
-	db 31, SLAM
-	db 39, SCREECH
+	db 23, BODY_SLAM
+	db 31, SWORD_DANCE
+	db 39, HYPER_BEAM
 	db 0
 
 ExeggcuteEvosMoves:
@@ -536,7 +536,7 @@ TangelaEvosMoves:
 	db 32, POISONPOWDER
 	db 36, STUN_SPORE
 	db 39, SLEEP_POWDER
-	db 45, SLAM
+	db 45, MEGA_DRAIN
 	db 49, GROWTH
 	db 0
 
